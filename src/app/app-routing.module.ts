@@ -11,6 +11,9 @@ import { ListRequestComponent } from './components/list-request/list-request.com
 import { ProfileClientComponent } from './components/profile-client/profile-client.component';
 import { ProfileWoodWorkComponent } from './components/profile-wood-work/profile-wood-work.component';
 import { RegisterClientComponent } from './components/register-client/register-client.component';
+import { RegisterClientAdressComponent } from './components/register-client-adress/register-client-adress.component';
+import { RegisterClientContactComponent } from './components/register-client-contact/register-client-contact.component';
+import { RegisterClientPasswordComponent } from './components/register-client-password/register-client-password.component';
 import { RegisterWoodWorkerComponent } from './components/register-wood-worker-cnpj/register-wood-worker.component';
 import { RequestComponent } from './components/request/request.component';
 import { SearchClientComponent } from './components/search-client/search-client.component';
@@ -29,11 +32,15 @@ const routes: Routes = [
   {path:'profileClient', component: ProfileClientComponent},
   {path:'profileWoodwork', component: ProfileWoodWorkComponent},
   {path:'registerClient', component: RegisterClientComponent},
+  {path:'registerClientAdress', component: RegisterClientAdressComponent},
+  {path:'registerClientContact', component: RegisterClientContactComponent},
+  {path:'registerClientPassword', component: RegisterClientPasswordComponent},
   {path:'registerWoodwork', component: RegisterWoodWorkerComponent},
   {path:'request', component: RequestComponent},
   {path:'searchClient', component: SearchClientComponent},
   {path:'searchRequest', component: SearchRequestComponent},
   {path:'searchWoodwork', component: SearchSpecificWoodWorkComponent},
+
   
 ];
 
