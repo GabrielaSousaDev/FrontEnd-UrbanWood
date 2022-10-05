@@ -1,32 +1,52 @@
 <main class="d-flex justify-content-center">
-    <section class="d-flex flex-column mb-3 me-3 p-0">
-        <form>
-            <div class="patern_font_tittle ">
-                <h2>Sign in as</h2>
-            </div>
-            <div class="d-flex flex-column">
-                <button type="button" class="btn_woodworker" (click)="signAsWoodWorker()">Woodworker</button>
-                <button type="button" class="btn_client" (click)="signAsClient()">Client</button>
-            </div>
-        </form>
-    </section>
-    <section >
-        <div class="flex-column card mt-2 mb-2 border border-dark ">
-            <div class="welcome p-2 m-3 flex-row d-flex flex-column mb-3 me-3 p-0">
-                <h2>Welcome!</h2>
-            </div>
-            <div class="p-2 m-3 flex-column">
-                <label for="email">E-mail</label>
-                <input type="text" name="email" class="border border-dark fields" [(ngModel)]="email">
-            </div>
-            <div class="p-2 m-3 flex-column">
-                <label for="password">Password</label>
-                <input type="password" name="password" class="border border-dark fields" [(ngModel)]="password">
-            </div>
-            <section id="wrong" *ngIf="flag" class="p-2 m-3">
-                <h4>Login ou senha Incorretos, verifique por favor!!</h4>
-            </section>
-            <button type="button" class="login_btn" (click)="login()">Login</button>
+    <section class="d-flex flex-column m-3 justify-content-center align-items-center">
+        <div class="patern_font_tittle">
+            <h2>Sign in as</h2>
+        </div>
+        <div class="d-flex flex-column">
+            <button type="button" class="patern_btn" (click)="signAsWoodWorker()">Woodworker</button>
+            <button type="button" class="patern_btn" id="btnClient" (click)="signAsClient()">Client</button>
         </div>
     </section>
+    <section class=" d-flex justify-content-center card p-3 m-3 align-items-center">
+            <ul>
+            <li><h3>You are Welcome!</h3></li>
+            <li><div class="mb-3">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">E-mail</span>
+                    <input type="text" class="form-control paterns_field_text" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default">
+                </div>
+            </div></li>
+            <li><div class="mb-3">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default">
+                </div>
+            </div></li>
+           <li><button type="button" class="patern_btn" (click)="login()">Login</button></li>
+        </ul>
+        </section>
 </main>
+
+<!--
+ <section class="flex-column card m-3 p-2 border border-dark ">
+        <div class="patern_font_tittle">
+            <h2>Welcome!</h2>
+        </div>
+        <div class="p-2 m-3 ">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" class="paterns_field_text" [(ngModel)]="email">
+        </div>
+        <div class="p-2 m-3">
+            <label for="password">Password</label>
+            <input type="password" name="password" class="paterns_field_text" [(ngModel)]="password">
+        </div>
+        <section id="wrong" *ngIf="flag" class="p-2 m-3">
+            <h4>Login ou senha Incorretos, verifique por favor!!</h4>
+        </section>
+        <button type="button" class="patern_btn" (click)="login()">Login</button>
+    </section>
+
+-->
