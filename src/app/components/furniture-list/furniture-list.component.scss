@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container-fluid {
+    height: 90px;
+        
+}
+.nav-item {
+    margin-right: 30px;
+    font-size: 16px;
+}
+.navbar {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+  
+    color: #0E1543;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+.form-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+
+
+    gap: 20px;
+}
+.form-1 {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    padding: 10px;
+
+    background-color: white;
+}
+.form-2 {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    padding: 10px;
+
+    background-color: white;
+}
+.form-3 {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    padding: 10 5 5 4;
+
+    background-color: white;
+}
+
+.form-4 {
+    width: 200px;
+    height: 300px; 
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    padding: 10px;
+
+    background-color: white;
+}
+
+.form-5 { 
+    width: 200px;
+    height: 300px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    padding: 10px;
+
+    background-color: white;
+}
+.form-6 {  
+    width: 200px;
+    height: 300px;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    padding: 10 5 5 4;
+    background-color: white;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    margin-top: 5vw;
+}
+.mark-page {
+    display: flex;
+    justify-content: center;
+    
+    gap: 10px;
+    margin-top: 1vw;
+}
+.mark-page1 {
+    box-sizing: border-box;
+
+
+width: 22px;
+height: 22px;
+left: 623px;
+top: 698px;
+
+background: #FDA911;
+border: 2px solid #FDA911;
+border-radius: 50%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mark-page2 {
+box-sizing: border-box;
+
+width: 22px;
+height: 22px;
+left: 623px;
+top: 698px;
+
+background: white;
+border: 2px solid #FDA911;
+border-radius: 50%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mark-page2:hover {
+    background-color: #FDA911;
+}
+.mark-page3 {
+box-sizing: border-box;
+
+width: 22px;
+height: 22px;
+left: 623px;
+top: 698px;
+
+background:white;
+border: 2px solid #FDA911;
+border-radius: 50%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mark-page3:hover {
+    background-color: #FDA911;
+}
+.mark-page4 {
+box-sizing: border-box;
+width: 22px;
+height: 22px;
+left: 623px;
+top: 698px;
+
+background: white;
+border: 2px solid #FDA911;
+border-radius: 50%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mark-page4:hover {
+    background-color: #FDA911;
+}

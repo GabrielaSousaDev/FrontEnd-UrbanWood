@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid {
+    height: 90px;
+
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.navbar {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    font-size: 2vw;
+    margin-top: 3vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sub-title {
+    font-size: 2vw;
+    margin-top: 2vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 1vw;
+}
+
+.input-2 {
+    display: flex;
+    justify-content: center;
+
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 2.5vw;
+}
+
+#exampleFormControlInput1 {
+    width: 120%;
+}
+
+.main-form {
+    width: 80%;
+    height: 20%;
+    background-color: white;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 2vw;
+}
+
+.main-form-2 {
+    width: 80%;
+    height: 20%;
+    background-color: white;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 6vw;
+}
+
+.form {
+    margin-top: 0.8vw;
+    margin-left: 0.4vw;
+    color: #0E1543;
+    font-size: 16px;
+
+}
+
+.top {
+    margin-top: 1vw;
+}
+
+.flex {
+    display: flex;
+    gap: 850px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
