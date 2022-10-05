@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /*Reset da pagina, aplicado a todos as paginas*/
+}
+.paterns_field_text {
+    padding: 0px 0px 0px 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 45px;
+    width: 100%;
+    font-size: 30px;
+    border: 1px solid #1A67AE;
+}
+.patern_font_text{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.patern_font_tittle {
+    font-weight: 400;
+    font-size: 1em;
+    color: #0E1543;
+}
+.patern_btn {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 1rem;
+    background: #FDA911;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    color: black;
+}
+.patern_hover:hover {
+    background-color: #1A67AE;
+}
+ul,li{
+    list-style: none;
+}
