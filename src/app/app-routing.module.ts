@@ -15,10 +15,13 @@ import { RegisterClientAdressComponent } from './components/register-client-adre
 import { RegisterClientContactComponent } from './components/register-client-contact/register-client-contact.component';
 import { RegisterClientPasswordComponent } from './components/register-client-password/register-client-password.component';
 import { RegisterWoodWorkerComponent } from './components/register-wood-worker-cnpj/register-wood-worker.component';
+import { RegisterWoodWorkercontactComponent } from './components/register-wood-workercontact/register-wood-workercontact.component';
+import { RegisterWoodWorkerpasswordComponent } from './components/register-wood-workerpassword/register-wood-workerpassword.component';
 import { RequestComponent } from './components/request/request.component';
 import { SearchClientComponent } from './components/search-client/search-client.component';
 import { SearchRequestComponent } from './components/search-request/search-request.component';
 import { SearchSpecificWoodWorkComponent } from './components/search-specific-wood-work/search-specific-wood-work.component';
+
 
 const routes: Routes = [
   {path:'', component: HomePageComponent},
@@ -35,7 +38,10 @@ const routes: Routes = [
   {path:'registerClientAdress', component: RegisterClientAdressComponent},
   {path:'registerClientContact', component: RegisterClientContactComponent},
   {path:'registerClientPassword', component: RegisterClientPasswordComponent},
-  {path:'registerWoodwork', component: RegisterWoodWorkerComponent},
+  {path:'registerWoodworker', component: RegisterWoodWorkerComponent},
+  {path:'registerWoodworkContact', component: RegisterWoodWorkercontactComponent },
+  {path:'registerWoodworkPassword', component: RegisterWoodWorkerpasswordComponent },
+  {path:'registerWoodworkAddress', component: RegisterWoodWorkerpasswordComponent },
   {path:'request', component: RequestComponent},
   {path:'searchClient', component: SearchClientComponent},
   {path:'searchRequest', component: SearchRequestComponent},
