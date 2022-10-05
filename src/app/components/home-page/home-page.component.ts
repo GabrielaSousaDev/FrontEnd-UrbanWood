@@ -7,13 +7,24 @@ import { Router } from '@angular/router';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-
+  email:string = "";
+  password:string = "";
+  flag:boolean=false;
+  
   constructor(private router:Router) { }
-
   ngOnInit(): void {
   }
-
   signAsWoodWorker():void{
-    this.router.navigate(["request"])
+    this.router.navigate(["registerWoodwork"])
+  }
+  signAsClient():void{
+    this.router.navigate(["registerClient"])
+  }
+  login():void{
+    if(this.email==="ubanwood@entra21.com.br" && this.password==="123456"){
+      alert("Logado")
+    }else{
+      this.flag = true;
+    }
   }
 }

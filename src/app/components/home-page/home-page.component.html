@@ -1,29 +1,32 @@
-<form class="index2-form-1">
-
-    <div class="sign">
-        <p>Sign in as</p>
-    </div>
-    <button type="button" class="btn_woodworker" (click)="signAsWoodWorker()">Woodworker</button>
-    <button type="button" class="btn_client">Client</button>
-
-</form>
-
-<form class="index2-form-2">
-
-    <div class="welcome">
-        <p>Welcome!</p>
-    </div>
-    <div class="email">
-        <p>E-mail</p>
-        <input type="text" class="in_email">
-    </div>
-    <div class="password">
-        <p>Password</p>
-        <input type="password" class="in_password">
-    </div>
-    <div class="forgot">
-        <u>Forgot your password?</u>
-    </div>
-    <button type="button" class="login_btn">Login</button>
-
-</form>
+<main class="d-flex justify-content-center">
+    <section class="d-flex flex-column mb-3 me-3 p-0">
+        <form>
+            <div class="patern_font_tittle ">
+                <h2>Sign in as</h2>
+            </div>
+            <div class="d-flex flex-column">
+                <button type="button" class="btn_woodworker" (click)="signAsWoodWorker()">Woodworker</button>
+                <button type="button" class="btn_client" (click)="signAsClient()">Client</button>
+            </div>
+        </form>
+    </section>
+    <section >
+        <div class="flex-column card mt-2 mb-2 border border-dark ">
+            <div class="welcome p-2 m-3 flex-row d-flex flex-column mb-3 me-3 p-0">
+                <h2>Welcome!</h2>
+            </div>
+            <div class="p-2 m-3 flex-column">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" class="border border-dark fields" [(ngModel)]="email">
+            </div>
+            <div class="p-2 m-3 flex-column">
+                <label for="password">Password</label>
+                <input type="password" name="password" class="border border-dark fields" [(ngModel)]="password">
+            </div>
+            <section id="wrong" *ngIf="flag" class="p-2 m-3">
+                <h4>Login ou senha Incorretos, verifique por favor!!</h4>
+            </section>
+            <button type="button" class="login_btn" (click)="login()">Login</button>
+        </div>
+    </section>
+</main>

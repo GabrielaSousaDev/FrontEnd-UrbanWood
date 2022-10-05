@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.paterns_field_text {
+    padding: 0px 0px 0px 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 45px;
+    width: 300px;
+    font-size: 30px;
+}
+.patern_font_text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.patern_font_tittle {
+    width: 23.13vw;
+    margin-left: 8vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.68vw;
+    color: #0E1543;
+}
+.patern_btn {
+    box-sizing: border-box;
+    width: 300px;
+    height: 35px;
+    font-size: 16;
+    background: #FDA911;
+    border: 2px solid #1A67AE;
+    border-radius: 50px;
+    color: black;
+}
+.patern_hover:hover {
+    background-color: #1A67AE;
+}
