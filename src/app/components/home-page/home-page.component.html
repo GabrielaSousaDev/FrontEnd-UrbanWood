@@ -9,25 +9,35 @@
         </div>
     </section>
     <section class=" d-flex justify-content-center card p-3 m-3 align-items-center">
-            <ul>
-            <li><h3>You are Welcome!</h3></li>
-            <li><div class="mb-3">
-                <div class="input-group mb-3">
-                    <span class="input-group-text">E-mail</span>
-                    <input type="text" class="form-control paterns_field_text" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-default">
+        <ul>
+            <li>
+                <h3>You are Welcome!</h3>
+            </li>
+            <li>
+                <div class="mb-3">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">E-mail</span>
+                        <input type="text" class="form-control paterns_field_text" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
                 </div>
-            </div></li>
-            <li><div class="mb-3">
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
-                    <input type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-default">
+            </li>
+            <li>
+                <div class="mb-3">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                    </div>
                 </div>
-            </div></li>
-           <li><button type="button" class="patern_btn" (click)="login()">Login</button></li>
+            </li>
+            <li><button type="button" class="patern_btn" (click)="login()">Login</button>
+                <section id="wrong" *ngIf="flag" class="p-2 m-3">
+                    <h4 class="patern_font_text">Login ou senha Incorretos, verifique por favor!!</h4>
+                </section>
+            </li>
         </ul>
-        </section>
+    </section>
 </main>
 
 <!--
