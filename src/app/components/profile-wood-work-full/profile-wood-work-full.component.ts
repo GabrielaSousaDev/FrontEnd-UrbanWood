@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile-wood-work-full',
@@ -8,12 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileWoodWorkFullComponent implements OnInit {
   service: any;
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
-  confirm(): void {
-   /* this.service.addUser(this.profile).subscribe(); */
+  confirmProfile(): void {
+    this.router.navigate([""])   
    }
 
 }

@@ -14,7 +14,7 @@ export class RegisterWoodWorkerComponent implements OnInit {
   ngOnInit(): void {
   }
   next():void{
-    this.router.navigate(["registerWoodwork"])
+    this.router.navigate(["registerWoodworkContact"])
   }
  /**  next(): void {
     this.service.addUser(this.register).subscribe(); 

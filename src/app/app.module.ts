@@ -9,6 +9,7 @@ import { HeaderWoodworkComponent } from './components/header-woodwork/header-woo
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { WoodworkDescriptionComponent } from './components/woodwork-description/woodwork-description.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     HeaderClientComponent,
     HeaderWoodworkComponent,
     HomePageComponent,
-    FooterComponent
+    FooterComponent,
+    WoodworkDescriptionComponent
   ],
   imports: [
     BrowserModule,
