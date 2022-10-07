@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register-wood-worker',
@@ -6,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./register-wood-worker.component.scss']
 })
 export class RegisterWoodWorkerComponent implements OnInit {
-  service: any;
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
- /**  next(): void {
-    this.service.addUser(this.register).subscribe(); 
-   }*/
+  
+ nextStepIfRegister(){
+  this.router.navigate(["registerWoodworkContact"])
+ }
 
 }

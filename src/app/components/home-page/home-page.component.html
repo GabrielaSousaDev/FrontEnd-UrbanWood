@@ -32,31 +32,10 @@
                 </div>
             </li>
             <li><button type="button" class="patern_btn" (click)="login()">Login</button>
-                <section id="wrong" *ngIf="flag" class="p-2 m-3">
-                    <h4 class="patern_font_text">Login ou senha Incorretos, verifique por favor!!</h4>
+                <section id="wrong" *ngIf="flag" class="p-2 m-3" >
+                    <h5 class="patern_font_text">Login ou senha Incorretos, verifique por favor!!</h5>
                 </section>
             </li>
         </ul>
     </section>
 </main>
-
-<!--
- <section class="flex-column card m-3 p-2 border border-dark ">
-        <div class="patern_font_tittle">
-            <h2>Welcome!</h2>
-        </div>
-        <div class="p-2 m-3 ">
-            <label for="email">E-mail</label>
-            <input type="text" name="email" class="paterns_field_text" [(ngModel)]="email">
-        </div>
-        <div class="p-2 m-3">
-            <label for="password">Password</label>
-            <input type="password" name="password" class="paterns_field_text" [(ngModel)]="password">
-        </div>
-        <section id="wrong" *ngIf="flag" class="p-2 m-3">
-            <h4>Login ou senha Incorretos, verifique por favor!!</h4>
-        </section>
-        <button type="button" class="patern_btn" (click)="login()">Login</button>
-    </section>
-
--->

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register-wood-workerpassword',
@@ -7,17 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterWoodWorkerpasswordComponent implements OnInit {
 
-  /*register: Register = { exampleFormControlInput1 = "", exampleFormControlInput2 = "" }*/
-
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
   back(): void {
-    /*this.service.addUser(this.register).subscribe(); */
-   }
-   next(): void {
-    /*this.service.addUser(this.register).subscribe(); */
-   }
+    this.router.navigate(["registerWoodworkContact"])
+  }
+  next(): void {
+    this.router.navigate(["registerWoodworkAdress"])
+  }
 
 }
