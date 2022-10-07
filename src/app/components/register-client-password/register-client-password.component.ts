@@ -13,10 +13,10 @@ export class RegisterClientPasswordComponent implements OnInit {
   ngOnInit(): void {
   }
   Back():void{
-    this.router.navigate(["request"])
+    this.router.navigate(["registerClientContact"])
   }
   Next():void{
-    this.router.navigate(["request"])
+    this.router.navigate(["registerClientAdress"])
   }
 
 

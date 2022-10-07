@@ -3,12 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { AddFurnitureComponent } from './components/add-furniture/add-furniture.component';
 import { AreaLivingComponent } from './components/area-living/area-living.component';
 import { ClientProfileComponent } from './components/client-profile/client-profile.component';
+import { DescriptionComponent } from './components/description/description.component';
 import { FilterWoodworksComponent } from './components/filter-woodworks/filter-woodworks.component';
 import { FoundWoodWorkComponent } from './components/found-wood-work/found-wood-work.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { ListClientsComponent } from './components/list-clients/list-clients.component';
 import { ListRequestComponent } from './components/list-request/list-request.component';
+import { LivingAreaClientComponent } from './components/living-area-client/living-area-client.component';
 import { ProfileClientComponent } from './components/profile-client/profile-client.component';
+import { ProfileClientFullComponent } from './components/profile-client-full/profile-client-full.component';
 import { ProfileWoodWorkComponent } from './components/profile-wood-work/profile-wood-work.component';
 import { RegisterClientComponent } from './components/register-client/register-client.component';
 import { RegisterClientAdressComponent } from './components/register-client-adress/register-client-adress.component';
@@ -25,11 +28,14 @@ const routes: Routes = [
   {path:'addFurniture', component: AddFurnitureComponent},
   {path:'areaLiving', component: AreaLivingComponent},
   {path:'clientProfile', component: ClientProfileComponent},
+  {path:'description', component: DescriptionComponent},
   {path:'filterWoodworks', component: FilterWoodworksComponent},
   {path:'foundWoodwork', component: FoundWoodWorkComponent},
   {path:'listClient', component: ListClientsComponent},
   {path:'listRequest', component: ListRequestComponent},
+  {path:'livingAreaClient', component: LivingAreaClientComponent},
   {path:'profileClient', component: ProfileClientComponent},
+  {path:'profileClientFull', component: ProfileClientFullComponent},
   {path:'profileWoodwork', component: ProfileWoodWorkComponent},
   {path:'registerClient', component: RegisterClientComponent},
   {path:'registerClientAdress', component: RegisterClientAdressComponent},

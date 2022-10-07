@@ -14,10 +14,10 @@ export class RegisterClientContactComponent implements OnInit {
   }
 
   Back():void{
-    this.router.navigate(["request"])
+    this.router.navigate(["registerClient"])
   }
   Next():void{
-    this.router.navigate(["request"])
+    this.router.navigate(["registerClientPassword"])
   }
 
 
