@@ -8,22 +8,13 @@ import { Router } from '@angular/router';
 })
 export class ProfileWoodWorkComponent implements OnInit {
 
-  constructor(private router:Router) { }
+
+  constructor() {}
 
   ngOnInit(): void {
   }
-  editProfile(): void {
-    this.router.navigate(["profileWoodworkFull"])
-  }
- /* profile: Profile = { exampleFormControlInput1: "", exampleFormControlInput2: "" };  
-  service: any;
+ 
 
-  constructor() { }
-
-  
-  editProfile(): void {
-    this.service.addUser(this.profile).subscribe(); 
-   }*/
 
 }
 
