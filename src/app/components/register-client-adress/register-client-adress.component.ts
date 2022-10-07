@@ -16,7 +16,9 @@ export class RegisterClientAdressComponent implements OnInit {
     this.router.navigate(["registerClientPassword"])
   }
   Done():void{
+
     this.router.navigate(["profileClient"])
+
   }
 
 }

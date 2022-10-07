@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register-wood-workercontact',
@@ -10,14 +11,15 @@ export class RegisterWoodWorkercontactComponent implements OnInit {
  /**  register: Register = { exampleFormControlInput1 = "", exampleFormControlInput2 = "", exampleFormControlInput3 = "" }*/
   service: any;
 
-  constructor() { }
+
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
   back(): void {
-    /**this.service.addUser(this.register).subscribe(); */
-   }
+    this.router.navigate(["registerWoodworker"])   
+  }
    next(): void {
-    /**this.service.addUser(this.register).subscribe(); */
-   }
+    this.router.navigate(["registerWoodworkPassword"])
+  }
 }

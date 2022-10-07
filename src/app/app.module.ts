@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -13,22 +14,32 @@ import { ListFurnitureClientComponent } from './components/list-furniture-client
 import { ClientFurnitureComponent } from './components/client-furniture/client-furniture.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderLoginComponent,
+    AddFurnitureComponent,
+    AreaLivingComponent,
+    ClientProfileComponent,
+    FilterWoodworksComponent,
+    FooterComponent,
+    FoundWoodWorkComponent,
     HeaderClientComponent,
+    HeaderLoginComponent,
     HeaderWoodworkComponent,
     HomePageComponent,
+
     FooterComponent,
     ListFurnitureClientComponent,
     ClientFurnitureComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })
