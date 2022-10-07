@@ -25,9 +25,6 @@ import { SearchClientComponent } from "./components/search-client/search-client.
 import { SearchRequestComponent } from "./components/search-request/search-request.component";
 import { SearchSpecificWoodWorkComponent } from "./components/search-specific-wood-work/search-specific-wood-work.component";
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,18 +38,11 @@ import { SearchSpecificWoodWorkComponent } from "./components/search-specific-wo
     HeaderLoginComponent,
     HeaderWoodworkComponent,
     HomePageComponent,
-    ListClientsComponent,
-    ListRequestComponent,
-    ProfileClientComponent,
-    ProfileClientFullComponent,
-    ProfileWoodWorkFullComponent,
-    RegisterClientAdressComponent,
-    RegisterClientComponent,
-    RequestComponent,
-    SearchRequestComponent,
-    ServiceWorkerContainer,
-    SearchSpecificWoodWorkComponent,
-    SearchClientComponent,
+
+    FooterComponent,
+    WoodworkDescriptionComponent,
+    RegisterFurnitureComponent
+ 
   ],
   imports: [
     BrowserModule,
