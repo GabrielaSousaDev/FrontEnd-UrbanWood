@@ -23,6 +23,7 @@ import { RequestComponent } from './components/request/request.component';
 import { SearchClientComponent } from './components/search-client/search-client.component';
 import { SearchRequestComponent } from './components/search-request/search-request.component';
 import { SearchSpecificWoodWorkComponent } from './components/search-specific-wood-work/search-specific-wood-work.component';
+import { RegisterFurnitureComponent } from './components/register-furniture/register-furniture.component';
 
 
 const routes: Routes = [
@@ -44,6 +45,7 @@ const routes: Routes = [
   {path:'registerWoodworkContact', component: RegisterWoodWorkercontactComponent },
   {path:'registerWoodworkPassword', component: RegisterWoodWorkerpasswordComponent },
   {path:'registerWoodworkAddress', component: RegisterWoodWorkerAdressComponent },
+  {path:'registerFurniture', component: RegisterFurnitureComponent },
   {path:'profileWoodworkFull', component: ProfileWoodWorkFullComponent },
   {path:'request', component: RequestComponent},
   {path:'searchClient', component: SearchClientComponent},

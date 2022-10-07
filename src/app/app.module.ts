@@ -10,6 +10,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { WoodworkDescriptionComponent } from './components/woodwork-description/woodwork-description.component';
+import { RegisterFurnitureComponent } from './components/register-furniture/register-furniture.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { WoodworkDescriptionComponent } from './components/woodwork-description/
     HeaderWoodworkComponent,
     HomePageComponent,
     FooterComponent,
-    WoodworkDescriptionComponent
+    WoodworkDescriptionComponent,
+    RegisterFurnitureComponent
   ],
   imports: [
     BrowserModule,
