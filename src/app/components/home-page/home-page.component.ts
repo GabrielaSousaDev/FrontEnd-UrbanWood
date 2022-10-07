@@ -15,7 +15,7 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
   signAsWoodWorker():void{
-    this.router.navigate(["registerWoodwork"])
+    this.router.navigate(["registerWoodworker"])
   }
   signAsClient():void{
     this.router.navigate(["registerClient"])

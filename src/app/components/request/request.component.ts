@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-request',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RequestComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router : Router) { }
 
   ngOnInit(): void {
   }
-
+  Back():void{
+    this.router.navigate([""])
+  }
+  Buy():void{
+    this.router.navigate([""])
+  }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-profile-wood-work',
@@ -7,17 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileWoodWorkComponent implements OnInit {
 
+
+  constructor() {}
+
   ngOnInit(): void {
   }
- /* profile: Profile = { exampleFormControlInput1: "", exampleFormControlInput2: "" };  
-  service: any;
+ 
 
-  constructor() { }
-
-  
-  editProfile(): void {
-    this.service.addUser(this.profile).subscribe(); 
-   }*/
 
 }
 

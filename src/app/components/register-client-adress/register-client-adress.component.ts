@@ -13,10 +13,12 @@ export class RegisterClientAdressComponent implements OnInit {
   ngOnInit(): void {
   }
   Back():void{
-    this.router.navigate(["request"])
+    this.router.navigate(["registerClientPassword"])
   }
   Done():void{
-    this.router.navigate(["request"])
+
+    this.router.navigate(["profileClient"])
+
   }
 
 }

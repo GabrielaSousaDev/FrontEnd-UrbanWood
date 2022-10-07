@@ -13,7 +13,7 @@ export class ProfileClientComponent implements OnInit {
   ngOnInit(): void {
   }
   EditProfile():void{
-    this.router.navigate(["request"])
+    this.router.navigate(["profileClientFull"])
   }
 
 }
