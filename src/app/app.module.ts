@@ -12,19 +12,20 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { ListFurnitureClientComponent } from './components/list-furniture-client/list-furniture-client.component';
 import { ClientFurnitureComponent } from './components/client-furniture/client-furniture.component';
-import { AddFurnitureComponent } from './components/add-furniture/add-furniture.component';
-import { AreaLivingComponent } from './components/area-living/area-living.component';
 import { ClientProfileComponent } from './components/client-profile/client-profile.component';
 import { FilterWoodworksComponent } from './components/filter-woodworks/filter-woodworks.component';
 import { FoundWoodWorkComponent } from './components/found-wood-work/found-wood-work.component';
+import { LivingAreaWoodworkComponent } from './components/living-area-woodwork/living-area-woodwork.component';
+import { EditFurnitureComponent } from './components/edit-furniture/edit-furniture.component';
+import { OrderFurnitureComponent } from './components/order-furniture/order-furniture.component';
+import { FullOrderFurnitureComponent } from './components/full-order-furniture/full-order-furniture.component';
+import { RegisterLivingAreaComponent } from './components/register-living-area/register-living-area.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddFurnitureComponent,
-    AreaLivingComponent,
     ClientProfileComponent,
     FilterWoodworksComponent,
     FooterComponent,
@@ -35,7 +36,12 @@ import { FoundWoodWorkComponent } from './components/found-wood-work/found-wood-
     HomePageComponent,
     FooterComponent,
     ListFurnitureClientComponent,
-    ClientFurnitureComponent
+    ClientFurnitureComponent,
+    LivingAreaWoodworkComponent,
+    EditFurnitureComponent,
+    OrderFurnitureComponent,
+    FullOrderFurnitureComponent,
+    RegisterLivingAreaComponent
 
   ],
   imports: [

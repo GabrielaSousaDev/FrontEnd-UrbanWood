@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AddFurnitureComponent } from './components/add-furniture/add-furniture.component';
-import { AreaLivingComponent } from './components/area-living/area-living.component';
 import { ClientProfileComponent } from './components/client-profile/client-profile.component';
 import { DescriptionComponent } from './components/description/description.component';
 import { FilterWoodworksComponent } from './components/filter-woodworks/filter-woodworks.component';
@@ -22,17 +20,15 @@ import { RegisterWoodWorkercontactComponent } from './components/register-wood-w
 import { RegisterWoodWorkerpasswordComponent } from './components/register-wood-workerpassword/register-wood-workerpassword.component';
 import { RegisterWoodWorkerAdressComponent } from './components/register-wood-worker-adress/register-wood-worker-adress.component';
 import { ProfileWoodWorkFullComponent } from './components/profile-wood-work-full/profile-wood-work-full.component';
-import { RequestComponent } from './components/request/request.component';
 import { SearchClientComponent } from './components/search-client/search-client.component';
 import { SearchRequestComponent } from './components/search-request/search-request.component';
 import { SearchSpecificWoodWorkComponent } from './components/search-specific-wood-work/search-specific-wood-work.component';
 import { RegisterFurnitureComponent } from './components/register-furniture/register-furniture.component';
+import { LivingAreaWoodworkComponent } from './components/living-area-woodwork/living-area-woodwork.component';
 
 
 const routes: Routes = [
   {path:'', component: HomePageComponent},
-  {path:'addFurniture', component: AddFurnitureComponent},
-  {path:'areaLiving', component: AreaLivingComponent},
   {path:'clientProfile', component: ClientProfileComponent},
   {path:'description', component: DescriptionComponent},
   {path:'filterWoodworks', component: FilterWoodworksComponent},
@@ -40,6 +36,7 @@ const routes: Routes = [
   {path:'listClient', component: ListClientsComponent},
   {path:'listRequest', component: ListRequestComponent},
   {path:'livingAreaClient', component: LivingAreaClientComponent},
+  {path:'livingAreaWoodwork', component: LivingAreaWoodworkComponent},
   {path:'profileClient', component: ProfileClientComponent},
   {path:'profileClientFull', component: ProfileClientFullComponent},
   {path:'profileWoodwork', component: ProfileWoodWorkComponent},
@@ -53,7 +50,6 @@ const routes: Routes = [
   {path:'registerWoodworkAddress', component: RegisterWoodWorkerAdressComponent },
   {path:'registerFurniture', component: RegisterFurnitureComponent },
   {path:'profileWoodworkFull', component: ProfileWoodWorkFullComponent },
-  {path:'request', component: RequestComponent},
   {path:'searchClient', component: SearchClientComponent},
   {path:'searchRequest', component: SearchRequestComponent},
   {path:'searchWoodwork', component: SearchSpecificWoodWorkComponent},
