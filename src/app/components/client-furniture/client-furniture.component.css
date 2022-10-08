@@ -1,3 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E7FA;
+}
+
+.container-fluid {
+    height: 90px;
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.navbar {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
 .title {
     text-align: center;
     margin-top: 3vw;
@@ -134,16 +156,17 @@
 
     width: 50%;
 }
-
-.button {
-    margin-top: 2vw;
-    margin-left: 91.5%;
-    width: 30%;
-    margin-bottom: 2vw;
-}
 .exemplo {
     width: 100%;
     height: 5vw;
 
     border: 2px solid #1A67AE;
+}
+.button {
+    display: flex;
+    gap: 20px;
+    margin-top: 2vw;
+    margin-left: 61.5%;
+    width: 100%;
+    margin-bottom: 2vw;
 }
