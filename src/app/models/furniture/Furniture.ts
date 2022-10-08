@@ -1,4 +1,5 @@
-import { Color } from "./Color";
+import { Color } from "../color/Color";
+import { Order } from "../order/Order";
 
 export interface Furniture {
     id: number;

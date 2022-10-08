@@ -1,3 +1,4 @@
+import { Furniture } from './models/furniture/Furniture';
 
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -35,8 +36,8 @@ import { FoundWoodWorkComponent } from './components/found-wood-work/found-wood-
     HomePageComponent,
     FooterComponent,
     ListFurnitureClientComponent,
+    ClientFurnitureComponent,
     ClientFurnitureComponent
-
   ],
   imports: [
     BrowserModule,
