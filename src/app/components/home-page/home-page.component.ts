@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-home-page',
@@ -7,24 +7,33 @@ import { Router } from '@angular/router';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  email:string = "";
-  password:string = "";
-  flag:boolean=false;
-  
-  constructor(private router:Router) { }
+  email: string = "";
+  password: string = "";
+  flag: boolean = false;
+
+  constructor(private router: Router) {
+  }
+
   ngOnInit(): void {
   }
-  signAsWoodWorker():void{
+
+  signAsWoodWorker(): void {
     this.router.navigate(["registerWoodwork"])
   }
-  signAsClient():void{
+
+  signAsClient(): void {
     this.router.navigate(["registerClient"])
   }
-  login():void{
-    if(this.email==="ubanwood@entra21.com.br" && this.password==="123456"){
-      alert("Logado")
-    }else{
+
+  login(): void {
+    if (this.email === "ubanwood@entra21.com.br" && this.password === "123456") {
+      this.flag = false;
+    } else if (this.email != "ubanwood@entra21.com.br" && this.password != "123456") {
       this.flag = true;
     }
+  }
+
+  loginFailure() {
+    this.flag = false;
   }
 }

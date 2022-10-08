@@ -13,6 +13,6 @@ export class HeaderClientComponent implements OnInit {
   ngOnInit(): void {
   }
   home(): void {
-    this.router.navigate([""])
+    this.router.navigate([""]);
   }
 }
