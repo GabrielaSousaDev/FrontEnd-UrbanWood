@@ -13,7 +13,7 @@ export class RequestComponent implements OnInit {
   ngOnInit(): void {
   }
   Back():void{
-    this.router.navigate([""])
+    this.router.navigate(["clientFurniture"])
   }
   Buy():void{
     this.router.navigate([""])
