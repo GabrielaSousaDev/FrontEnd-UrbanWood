@@ -1,4 +1,10 @@
+
+import { Furniture } from './models/furniture/Furniture';
+
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+
 import { NgModule } from '@angular/core';
+
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,7 +15,18 @@ import { HeaderWoodworkComponent } from './components/header-woodwork/header-woo
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+
+import { ListFurnitureClientComponent } from './components/list-furniture-client/list-furniture-client.component';
+import { ClientFurnitureComponent } from './components/client-furniture/client-furniture.component';
+import { AddFurnitureComponent } from './components/add-furniture/add-furniture.component';
+import { AreaLivingComponent } from './components/area-living/area-living.component';
+import { ClientProfileComponent } from './components/client-profile/client-profile.component';
+import { FilterWoodworksComponent } from './components/filter-woodworks/filter-woodworks.component';
+import { FoundWoodWorkComponent } from './components/found-wood-work/found-wood-work.component';
+
+
 import { RequestComponent } from './components/request/request.component';
+
 
 
 @NgModule({
@@ -20,7 +37,13 @@ import { RequestComponent } from './components/request/request.component';
     HeaderWoodworkComponent,
     HomePageComponent,
     FooterComponent,
+
+    ListFurnitureClientComponent,
+    ClientFurnitureComponent,
+    ClientFurnitureComponent
+
     RequestComponent
+
   ],
   imports: [
     BrowserModule,
