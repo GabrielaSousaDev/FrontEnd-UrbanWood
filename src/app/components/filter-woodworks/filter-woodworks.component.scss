@@ -27,8 +27,6 @@
 
 .mb-3 {
     margin-top: 80px;
-
-
 }
 
 .form-control {
@@ -62,11 +60,9 @@
 }
 
 .form-container-1 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
     gap: 100px;
     justify-content: center;
-
     margin-top: 40px;
 }
 
