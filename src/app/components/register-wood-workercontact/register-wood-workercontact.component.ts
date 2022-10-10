@@ -7,19 +7,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./register-wood-workercontact.component.scss']
 })
 export class RegisterWoodWorkercontactComponent implements OnInit {
-  
- /**  register: Register = { exampleFormControlInput1 = "", exampleFormControlInput2 = "", exampleFormControlInput3 = "" }*/
-  service: any;
 
-
-  constructor(private router:Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
   back(): void {
-    this.router.navigate(["registerWoodworker"])   
+    this.router.navigate(["registerWoodwork"])
   }
-   next(): void {
+  next(): void {
     this.router.navigate(["registerWoodworkPassword"])
   }
 }
