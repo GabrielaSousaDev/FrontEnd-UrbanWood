@@ -8,15 +8,16 @@ import { Router } from '@angular/router';
 })
 export class RegisterWoodWorkerAdressComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
   back(): void {
-    this.router.navigate(["registerWoodworkPassword"])   
+    this.router.navigate(["registerWoodworkPassword"])
   }
-   next(): void {
-    this.router.navigate([""])
+  done(): void {
+   alert("Feito")
+   this.router.navigate(["profilewoodwork"])
   }
   
 }

@@ -1,4 +1,5 @@
-import { Client } from "./Client";
+import { Woodwork } from "../woodwork/Woodwork";
+
 
 export interface Contact {
     id: number;
@@ -6,5 +7,5 @@ export interface Contact {
     phoneNumber: string;
     socialNetwork?: string;
     woodwork: Woodwork;
-    client: Client;
+   
 }

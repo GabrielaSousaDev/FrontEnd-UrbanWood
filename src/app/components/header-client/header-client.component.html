@@ -1,26 +1,25 @@
 <section>
-    <nav class="navbar navbar-expand navbar-light bg-light " aria-label="Second navbar example">
-        <div class="container-fluid">
-            <img src="./img/logo.svg">
-
-            <div class="nav justify-content-end" id="navbarsExample02">
-
-                <ul class="navbar-nav " >
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Search Woodwork</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="filterWoodworks">Request Budget</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Accompany Budget</a>
-                    </li>
-                </ul>
-
-                <form role="search">
-                    <img src="./img/profile.svg">
-                </form>
-            </div>
-        </div>
-    </nav>
+  <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+    <img src="../../../assets/logo.svg" class="navbar-brand" (click)="home()" alt="Urban Wood">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">Search Woodwork</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Request Budget</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Accompany
+          Budget</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 </section>

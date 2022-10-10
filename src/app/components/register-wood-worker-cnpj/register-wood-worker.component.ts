@@ -7,17 +7,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./register-wood-worker.component.scss']
 })
 export class RegisterWoodWorkerComponent implements OnInit {
-  service: any;
 
   constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
-  next():void{
-    this.router.navigate(["registerWoodworkContact"])
-  }
- /**  next(): void {
-    this.service.addUser(this.register).subscribe(); 
-   }*/
+  
+ nextStepIfRegister(){
+  this.router.navigate(["registerWoodworkContact"])
+ }
 
 }
