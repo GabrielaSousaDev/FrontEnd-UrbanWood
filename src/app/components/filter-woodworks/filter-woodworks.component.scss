@@ -20,13 +20,13 @@
 
 .title {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 2vw;
     color: #0E1543;
 }
 
 .mb-3 {
-    margin-top: 80px;
+    margin-top: 40px;
 
 
 }
@@ -40,48 +40,60 @@
 #form-input {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 10px;
     margin-left: 130px;
 }
 
 .btn-warning {
-    margin-left: 1658px;
     color: white;
+    width: 10%;
+    height: 40px;
+    margin-right: 6.5vw;
+
+}
+.button-1{
+    display: flex;
+    justify-content: end;
 }
 
 .sub-title {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 2vw;
     color: #0E1543;
 }
 
 .form-group {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
 }
 
 .form-container-1 {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 100px;
+    gap: 40px;
     justify-content: center;
 
-    margin-top: 40px;
+    margin-top: 50px;
+}
+#exampleFormControlInput1{
+    width: 120%;
+    height: 40px;
+    border: 2px solid #1A67AE;
+    padding: 10px;
 }
 
 .imagem-1 {
-    padding: 50px;
+    padding: 10px 0 0 0;
 }
 
 .imagem-2 {
-    padding: 70px;
+    padding: 15px;
 }
 
 .imagem-3 {
-    padding: 50px;
+    padding: 5px;
 }
 
 .imagem-4 {
-    padding: 60px;
+    padding: 10px 0 0 0;
 }

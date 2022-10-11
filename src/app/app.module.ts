@@ -3,8 +3,6 @@ import { Furniture } from './models/furniture/Furniture';
 
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
-import { NgModule } from '@angular/core';
-
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -40,8 +38,7 @@ import { RequestComponent } from './components/request/request.component';
 
     ListFurnitureClientComponent,
     ClientFurnitureComponent,
-    ClientFurnitureComponent
-
+    ClientFurnitureComponent,
     RequestComponent
 
   ],
