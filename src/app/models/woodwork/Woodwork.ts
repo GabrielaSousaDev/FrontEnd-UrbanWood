@@ -1,14 +1,13 @@
-import { Address } from "../address/Address";
-import { Contact } from "../contact/Contact";
-import { Item } from "../item/Item";
-import { LivingArea } from "../livingArea/LivingArea";
+import { Enviroment } from "../environment/environment";
+import { Order } from "../order/Order";
 
 export interface Woodwork {
-    companyName: string;
-    cnpj: string;
-    description?: string;
-    items?: Array<Item>;
-    livingAreas?: Array<LivingArea>;
-    address: Address;
-    contact: Contact;
-}
+    id: number;
+    companyName: String;
+    description: String;
+    enviroment: Array<Enviroment>;
+    order: Array<Order>;
+} 
+
+
+

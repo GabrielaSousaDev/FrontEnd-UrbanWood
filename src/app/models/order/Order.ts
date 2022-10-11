@@ -1,16 +1,18 @@
-import { Status } from "../contact/Status";
-import { Furniture } from "../furniture/Furniture";
-import { Item } from "../item/Item";
-import { Payment } from "../payment/Payment";
+import { Furniture } from '../furniture/Furniture';
+import { Woodwork } from '../woodwork/Woodwork';
+import { Client } from '../client/Client';
+import { Status } from '../status/status';
+import { Payment } from '../payment/payment';
 
 export interface Order {
     id: number;
-    priceOrder?: number;
+    price: any;
     status: Status;
     payment: Payment;
-    intialDate: Date;
-    finalDate?: Date;
-    item?: Item;
+    startDate: Date;
+    endDate: Date;
+    client: Client;
+    woodwork: Woodwork;
     furnitures: Array<Furniture>;
 
 }

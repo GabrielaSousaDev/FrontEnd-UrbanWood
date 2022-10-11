@@ -1,8 +1,10 @@
 export interface Image {
 
     id: number;
-    name: string;
-    type: string;
-    picByte: ByteLengthChunk;
+    name: String;
+    code: byte[];
+
+}
+export interface byte {
 
 }

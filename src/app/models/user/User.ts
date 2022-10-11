@@ -1,5 +1,8 @@
+import { Image } from "../image/Image";
+
 export interface User {
     id: number;
-    login: string;
-    password: string;
+    image: Image;
+
 }
+

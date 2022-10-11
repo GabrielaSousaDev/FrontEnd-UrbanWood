@@ -1,8 +1,11 @@
+import { Order } from '../order/Order';
+
 export interface Client {
-    nameClient: string;
-    lastName: string;
-    cpf: string;
-   /* items?: Array<Item>;
-    address: Address;
-    contact: Contact;*/
+    id: number;
+    cpf: String;
+    firstName: String;
+    lastName: String;
+    order: Array<Order>
+
+
 }

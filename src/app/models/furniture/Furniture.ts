@@ -1,12 +1,13 @@
 import { Color } from "../color/Color";
-import { Order } from "../order/Order";
+import { Image } from "../image/Image";
 
 export interface Furniture {
     id: number;
-    nameFurniture: string;
-    description?: string;
-    furnitureSize: number;
-    priceFurniture: number;
-    colors?: Array<Color>;
-    orders: Array<Order>
+    name: String;
+    price: any;
+    description: String;
+    furnitureSize: any;
+    image: Image;
+    color: Array<Color>;
+
 }

@@ -1,9 +1,12 @@
+import { User } from "../user/User";
+
 export interface Address {
     id: number;
-    street: string;
-    number: number;
-    complement: string;
-    neighborhood: string;
-    city: string;
-    cep: string;
+    streetName: String;
+    number: any;
+    neighborhood: String;
+    complement: String;
+    city: String;
+    cep: String;
+    user: User;
 }
