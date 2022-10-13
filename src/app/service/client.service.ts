@@ -20,11 +20,6 @@ export class ClientService {
     updateClient( client: Client): Observable<Client> {
         return this.client.put<Client>(this.endpoint, client);
     }
-
-    deleteClient( client: Client): Observable<Client> {
-        return this.client.delete<Client>(this.endpoint, client);
-    }
-
     getClientsById(id: number): Observable<Client[]> {
         return this.client.get<Client[]>(this.endpoint + 'search/' + id);
     }

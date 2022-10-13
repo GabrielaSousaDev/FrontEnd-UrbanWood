@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-client-furniture',
   templateUrl: './client-furniture.component.html',
-  styleUrls: ['./client-furniture.component.scss']
+  styleUrls: ['./client-furniture.component.css']
 })
 export class ClientFurnitureComponent implements OnInit {
 
