@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-import { Client } from '../models/client/Client';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -13,7 +12,7 @@ export class ClientService {
 
     constructor(private client: HttpClient) { }
 
-    addClient ( client: Client) : Observable<Client> {
+   /* addClient ( client: Client) : Observable<Client> {
         return this.client.post<Client>(this.endpoint, client);
     }
 
@@ -42,6 +41,6 @@ export class ClientService {
 
     getClientsC13ById(id: number) : Observable<Client[]> {
         return this.client.get<Client[]>(this.endpoint + 'search/' + id);
-    }
+    }*/
 
 }

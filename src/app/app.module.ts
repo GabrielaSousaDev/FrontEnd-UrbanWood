@@ -1,5 +1,4 @@
 
-import { Furniture } from './models/furniture/Furniture';
 
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
