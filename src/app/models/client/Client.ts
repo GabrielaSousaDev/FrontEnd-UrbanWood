@@ -6,6 +6,4 @@ export interface Client {
     firstName: String;
     lastName: String;
     order: Array<Order>
-
-
 }
