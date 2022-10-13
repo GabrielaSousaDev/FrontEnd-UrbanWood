@@ -17,20 +17,20 @@ export class AddressService {
         return this.client.post<Address>(this.endpoint, address);
     }
 
-    updateAddress(address: Address): Observable<Address> {
-        return this.client.put<Address>(this.endpoint, address);
+    updateAddress(address: Address, id: number){
+        return this.client.put<Address>(this.endpoint + 'id/' + id ,address);
     }
 
-   // deleteAddress( address: Address): Observable<Address> {
-      //  return this.client.delete<Address>(this.endpoint,address);
-  //  }
-
-    getAddressesById(id: number) : Observable<Address[]> {
-        return this.client.get<Address[]>(this.endpoint + 'search/' + id);
+   deleteAddress( address: Address, id: number){
+       return this.client.delete<Address>(this.endpoint + 'id/' + id);
+   }
+   
+    getAddressesById(id: number){
+        return this.client.get<Address[]>(this.endpoint + 'id/' + id);
     }
 
-    gAtaddressesByNeighborhood(neighborhood: string) : Observable<Address[]> {
-        return this.client.get<Address[]>(this.endpoint + 'search/' + neighborhood);
+    gAtaddressesByNeighborhood(neighborhood: string){
+        return this.client.get<Address[]>(this.endpoint + 'id/' + neighborhood);
     }
 
 }
