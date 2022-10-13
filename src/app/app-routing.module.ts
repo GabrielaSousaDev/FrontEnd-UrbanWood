@@ -3,26 +3,26 @@ import { RouterModule, Routes } from '@angular/router';
 import { AddFurnitureComponent } from './components/add-furniture/add-furniture.component';
 import { AreaLivingComponent } from './components/area-living/area-living.component';
 import { ClientFurnitureComponent } from './components/client-furniture/client-furniture.component';
-import { ClientProfileComponent } from './components/client-profile/client-profile.component';
+import { ClientProfileComponent } from './components/client-furniture/client-profile/client-profile.component
 import { DescriptionComponent } from './components/description/description.component';
 import { FilterWoodworksComponent } from './components/filter-woodworks/filter-woodworks.component';
 import { FoundWoodWorkComponent } from './components/found-wood-work/found-wood-work.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { ListClientsComponent } from './components/list-clients/list-clients.component';
 import { ListFurnitureClientComponent } from './components/list-furniture-client/list-furniture-client.component';
-import { ListRequestComponent } from './components/list-request/list-request.component';
+import { ListRequestComponent } from './components/woodwork/list-request/list-request.component';
 import { LivingAreaClientComponent } from './components/living-area-client/living-area-client.component';
 import { ProfileClientComponent } from './components/profile-client/profile-client.component';
 import { ProfileClientFullComponent } from './components/profile-client-full/profile-client-full.component';
-import { ProfileWoodWorkComponent } from './components/profile-wood-work/profile-wood-work.component';
-import { RegisterClientComponent } from './components/register-client/register-client.component';
+import { ProfileWoodWorkComponent } from './components/woodwork/profile-wood-work/profile-wood-work.component';
+import { RegisterClientComponent } from './co./components/woodwork/register-wood-worker-cnpj/register-wood-worker.component
 import { RegisterClientAdressComponent } from './components/register-client-adress/register-client-adress.component';
 import { RegisterClientContactComponent } from './components/register-client-contact/register-client-contact.component';
 import { RegisterClientPasswordComponent } from './components/register-client-password/register-client-password.component';
-import { RegisterWoodWorkerComponent } from './components/register-wood-worker-cnpj/register-wood-worker.component';
+import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
 import { RequestComponent } from './components/request/request.component';
-import { SearchClientComponent } from './components/search-client/search-client.component';
-import { SearchRequestComponent } from './components/search-request/search-request.component';
+import { SearchClientComponent } from './components/woodwork/search-client/search-client.component';
+import { SearchRequestComponent } from './components/woodwork/search-request/search-request.component';
 import { SearchSpecificWoodWorkComponent } from './components/search-specific-wood-work/search-specific-wood-work.component';
 
 const routes: Routes = [
