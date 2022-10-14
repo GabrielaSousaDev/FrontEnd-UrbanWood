@@ -32,3 +32,115 @@
     justify-content: center;
     margin-top: 5vw;
 }
+
+
+//register wood-worker-adress
+
+
+
+.title {
+    font-size: 2vw;
+    margin-top: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 2.5vw;
+}
+
+.input-2 {
+    display: flex;
+    justify-content: center;
+
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 2.5vw;
+}
+
+#exampleFormControlInput1 {
+    width: 120%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 7vw;
+    gap: 40px;
+}
+
+
+//register woodworker contact
+
+
+.title {
+    font-size: 2vw;
+    margin-top: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 5vw;
+}
+
+#exampleFormControlInput1 {
+    width: 120%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10vw;
+    gap: 40px;
+}
+
+
+// register woodworker password
+
+
+.title {
+    font-size: 2vw;
+    margin-top: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 5vw;
+}
+
+#exampleFormControlInput1 {
+    width: 120%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10vw;
+    gap: 40px;
+}
