@@ -34,13 +34,7 @@
 
 </div>
 
-<div class="button">
-  <button type="button" style="width: 10%;" class="btn btn-warning"  (click)="Next()">Next</button>
-
 </div>
-</div>
-
-//Register-client-contact
 
 <div class="tab" *ngIf="currentTab == 1">
 <div class="title">
@@ -67,9 +61,6 @@
 </div>
 </div>
 
-
-//register-client-password
-
 <div class="tab" *ngIf="currentTab == 2">
 <div class="title">
   <p>Password</p>
@@ -89,9 +80,6 @@
 
 </div>
 </div>
-
-
-//register-client-address
 
 <div class="tab" *ngIf="currentTab == 3">
 <div class="title">
@@ -136,4 +124,9 @@
   </div>
 
 </div>
+</div>
+
+<div class="button">
+  <button type="button" style="width: 10%;" class="btn btn-outline-primary" (click)="Back()">Back</button>
+  <button type="button" style="width: 10%;" class="btn btn-warning" (click)="Next()">Next</button>
 </div>
