@@ -1,6 +1,6 @@
 export interface allClient{
     idClient: number,
-    firstClient: string,
+    firstName: string,
     lastName: string,
     cpfClient: string,
     nameStreet: string,
