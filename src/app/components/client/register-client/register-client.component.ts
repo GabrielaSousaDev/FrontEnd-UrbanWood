@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
 })
 export class RegisterClientComponent implements OnInit {
 
+  currentTab: number = 0;
+
   constructor(private router: Router) { }
 
   ngOnInit(): void {
