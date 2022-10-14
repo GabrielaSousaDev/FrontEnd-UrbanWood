@@ -17,7 +17,6 @@ export class ClientService {
   //  POST  //
 
   addClient(postData: allClient): Observable<allClient> {
-    console.log(postData);
     return this.http.post<allClient>(this.endPointClient, postData);
   }
 
