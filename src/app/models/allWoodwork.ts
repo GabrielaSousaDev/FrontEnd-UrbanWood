@@ -9,7 +9,7 @@ export interface allWoodwork{
     neighborhood: string,
     city: string,
     cep: string,
-    socialNetworking: string,
+    socialNetwork: string,
     email: string,
     phone: string,
     login: string,

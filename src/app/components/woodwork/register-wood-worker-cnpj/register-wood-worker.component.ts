@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { allWoodwork } from 'src/app/models/allWoodwork';
 
 @Component({
   selector: 'app-register-wood-worker',
@@ -7,6 +8,24 @@ import { Router } from '@angular/router';
   styleUrls: ['./register-wood-worker.component.scss']
 })
 export class RegisterWoodWorkerComponent implements OnInit {
+
+  woodwork: allWoodwork = {
+    idWoodwork: 0,
+    companyName: "",
+    cnpj: "",
+    description: "",
+    nameStreet: "",
+    number: 0,
+    complement: "",
+    neighborhood: "",
+    city: "",
+    cep: "",
+    socialNetwork: "",
+    email: "",
+    phone: "",
+    login: "",
+    password: ""
+  }
 
   currentTab: number = 0;
 
