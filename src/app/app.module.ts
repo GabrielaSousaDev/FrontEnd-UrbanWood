@@ -15,6 +15,7 @@ import { HeaderClientComponent } from './components/core/header-client/header-cl
 import { HeaderLoginComponent } from './components/core/header-login/header-login.component';
 import { HeaderWoodworkComponent } from './components/core/header-woodwork/header-woodwork.component';
 import { HomePageComponent } from './components/core/home-page/home-page.component';
+import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
 import { RegisterWoodWorkercontactComponent } from './components/woodwork/register-wood-workercontact/register-wood-workercontact.component';
 
 
@@ -32,6 +33,7 @@ import { RegisterWoodWorkercontactComponent } from './components/woodwork/regist
     ClientFurnitureComponent,
     RegisterWoodWorkercontactComponent,
     RegisterClientComponent,
+    RegisterWoodWorkerComponent,
     RequestComponent
 
   ],
