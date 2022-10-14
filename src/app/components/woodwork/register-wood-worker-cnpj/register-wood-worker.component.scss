@@ -144,3 +144,19 @@
     margin-top: 10vw;
     gap: 40px;
 }
+.steps {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border: 2px #fecb1a solid;
+    border-radius: 50%;
+}
