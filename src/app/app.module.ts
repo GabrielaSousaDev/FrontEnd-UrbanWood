@@ -30,11 +30,9 @@ import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood
     ListFurnitureClientComponent,
     ClientFurnitureComponent,
     ClientFurnitureComponent,
-
     RegisterClientComponent,
     RegisterWoodWorkerComponent,
     RequestComponent
-
   ],
   imports: [
     BrowserModule,
