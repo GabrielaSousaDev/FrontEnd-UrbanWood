@@ -9,12 +9,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ClientFurnitureComponent } from './components/client/client-furniture/client-furniture.component';
 import { ListFurnitureClientComponent } from './components/client/list-furniture-client/list-furniture-client.component';
+import { RegisterClientComponent } from './components/client/register-client/register-client.component';
 import { RequestComponent } from './components/client/request/request.component';
 import { HeaderClientComponent } from './components/core/header-client/header-client.component';
 import { HeaderLoginComponent } from './components/core/header-login/header-login.component';
 import { HeaderWoodworkComponent } from './components/core/header-woodwork/header-woodwork.component';
 import { HomePageComponent } from './components/core/home-page/home-page.component';
-import { RegisterWoodWorkercontactComponent } from './components/woodwork/register-wood-workercontact/register-wood-workercontact.component';
+import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
 
 
 
@@ -29,7 +30,9 @@ import { RegisterWoodWorkercontactComponent } from './components/woodwork/regist
     ListFurnitureClientComponent,
     ClientFurnitureComponent,
     ClientFurnitureComponent,
-    RegisterWoodWorkercontactComponent,
+
+    RegisterClientComponent,
+    RegisterWoodWorkerComponent,
     RequestComponent
 
   ],

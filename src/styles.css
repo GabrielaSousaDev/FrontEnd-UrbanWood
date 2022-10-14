@@ -1,9 +1,11 @@
-* {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    /*Reset da pagina, aplicado a todos as paginas*/
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0%;
+    padding: 0%;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 .patterns_field_text {
     padding: 0px 0px 0px 15px;
     border-radius: 10px;

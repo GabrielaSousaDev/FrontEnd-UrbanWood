@@ -1,17 +1,12 @@
-<section class="header">
-    <nav class="navbar navbar-expand navbar-light bg-light" id="navBar">
-        <div class="container-fluid">
-            <img src="../../../assets/logo.svg" (click)="home()" alt="Urban Wood"> 
-            <div class="nav justify-content-end">
-                <ul class="navbar-nav ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Request</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Accompany Request</a>
-                    </li>
-                </ul>
-            </div>
+<section>
+    <nav>
+        <div>
+            <img src="../../../assets/logo.svg" (click)="home()" alt="Urban Wood">
+        </div>
+
+        <div class="conteiner-items">
+            <app-header-client *ngIf="false"></app-header-client>
+            <app-header-woodwork *ngIf="false"></app-header-woodwork>
         </div>
     </nav>
 </section>

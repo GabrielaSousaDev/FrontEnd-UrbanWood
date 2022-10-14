@@ -8,13 +8,18 @@ import { Router } from '@angular/router';
 })
 export class RegisterWoodWorkerComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  currentTab: number = 0;
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-  
- nextStepIfRegister(){
-  this.router.navigate(["registerWoodworkContact"])
- }
+
+  addTab(n: number) {
+    if (this.currentTab >= 0 && this.currentTab <= 3)
+      this.currentTab = this.currentTab + n;
+
+    console.log(this.currentTab);
+  }
 
 }

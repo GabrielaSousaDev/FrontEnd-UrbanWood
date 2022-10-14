@@ -1,29 +1,131 @@
-<div class="title">
-  <p>Sign in as woodwork</p>
-</div>
+<div class="tab" *ngIf="currentTab == 0">
 
-<div class="foto-perfil">
-  <img src="../img/perfil.png" alt="">
-</div>
-
-<div class="input">
-
-  <div>
-    <label  class="form-label">CNPJ</label>
-    <input type="number" maxlength="14" class="form-control" 
-    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-    formControlName="cpf_cnpj" mask="CPF_CNPJ" >
+  <div class="title">
+    <p>Sign in as woodwork</p>
   </div>
 
-  <div>
-    <label class="form-label">Company Name</label>
-    <input type="email" class="form-control" >
+  <div class="foto-perfil">
+    <img src="../../../../assets/perfil.svg" alt="">
   </div>
-  <!--[(ngModel)]="register.exampleFormControlInput2"
-  (click)="next()"-->
+
+  <div class="input">
+
+    <div>
+      <label class="form-label">CNPJ</label>
+      <input type="number" maxlength="14" class="form-control"
+        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" mask="CPF_CNPJ">
+    </div>
+
+    <div>
+      <label class="form-label">Company Name</label>
+      <input type="email" class="form-control">
+    </div>
+  </div>
+
+</div>
+
+<div class="tab" *ngIf="currentTab == 1">
+
+  <div class="title">
+    <p>Contact</p>
+  </div>
+
+  <div class="input">
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="exampleFormControlInput2">
+    </div>
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Social Network</label>
+      <input type="email" class="form-control" id="exampleFormControlInput3">
+    </div>
+
+  </div>
+</div>
+
+<div class="tab" *ngIf="currentTab == 2">
+
+  <div class="title">
+    <p>Password</p>
+  </div>
+
+  <div class="input">
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+      <input type="password" class="form-control" id="exampleFormControlInput2">
+    </div>
+
+  </div>
+</div>
+
+<div class="tab" *ngIf="currentTab == 3">
+
+  <div class="title">
+    <p>Address</p>
+  </div>
+
+  <div class="input">
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Street</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Number</label>
+      <input type="email" class="form-control" id="exampleFormControlInput2">
+    </div>
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Complement</label>
+      <input type="email" class="form-control" id="exampleFormControlInput3">
+    </div>
+
+  </div>
+
+  <div class="input-2">
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">Neighbor</label>
+      <input type="email" class="form-control" id="exampleFormControlInput4">
+    </div>
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">City</label>
+      <input type="email" class="form-control" id="exampleFormControlInput5">
+    </div>
+
+    <div>
+      <label for="exampleFormControlInput1" class="form-label">CEP</label>
+      <input type="email" class="form-control" id="exampleFormControlInput6">
+    </div>
+
+  </div>
 </div>
 
 <div class="button">
-  <button type="button"  style="width: 10%;" class="btn btn-warning" (click)=" nextStepIfRegister()">Next</button>
+  <button type="button" style="width: 10%;" class="btn btn-outline-primary" (click)="addTab(-1)" *ngIf="currentTab != 0">Back</button>
+  <button type="button" style="width: 10%;" class="btn btn-warning" (click)="addTab(+1)" *ngIf="currentTab != 3">Next</button>
+  <button type="button" style="width: 10%;" class="btn btn-success" (click)="addTab(+1)"
+    *ngIf="currentTab == 3">Cadastrar</button>
+</div>
 
+<div class="steps" style="display: flex; flex-direction: row; justify-content: center;">
+  <span class="step" [ngStyle]="{'background-color': (currentTab == 0 ? '#ffc000' : '#ffffff')}"></span>
+  <span class="step" [ngStyle]="{'background-color': (currentTab == 1 ? '#ffc000' : '#ffffff')}"></span>
+  <span class="step" [ngStyle]="{'background-color': (currentTab == 2 ? '#ffc000' : '#ffffff')}"></span>
+  <span class="step" [ngStyle]="{'background-color': (currentTab == 3 ? '#ffc000' : '#ffffff')}"></span>
 </div>
