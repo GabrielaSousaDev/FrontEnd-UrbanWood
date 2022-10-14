@@ -1,16 +1,17 @@
 export interface allClient{
     idClient: number,
-    nameClient: String,
-    lastName: String,
-    cpfClient: String,
-    nameStreet: String,
+    firstClient: string,
+    lastName: string,
+    cpfClient: string,
+    nameStreet: string,
     number: number,
-    complement: String,
-    neighborhood: String,
-    city: String,
-    cep: String,
-    socialNetwork: String,
-    email: String,
-    phone: String;
+    complement: string,
+    neighborhood: string,
+    city: string,
+    cep: string,
+    socialNetwork: string,
+    email: string,
+    phone: string;
+    password: string
 
 }
