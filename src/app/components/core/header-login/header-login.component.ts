@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-header-login',
+  selector: 'app-header',
   templateUrl: './header-login.component.html',
   styleUrls: ['./header-login.component.css']
 })
@@ -12,7 +12,10 @@ export class HeaderLoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   home(): void {
     this.router.navigate([""])
   }
+
+  
 }
