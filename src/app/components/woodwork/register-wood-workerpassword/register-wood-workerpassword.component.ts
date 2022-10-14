@@ -16,7 +16,7 @@ export class RegisterWoodWorkerpasswordComponent implements OnInit {
     this.router.navigate(["registerWoodworkContact"])
   }
   next(): void {
-    this.router.navigate(["registerWoodworkAdress"])
+    this.router.navigate(["registerWoodworkAddress"])
   }
 
 }

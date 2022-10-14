@@ -17,7 +17,10 @@ import { ClientProfileComponent } from './components/woodwork/client-profile/cli
 import { ListClientsComponent } from './components/woodwork/list-clients/list-clients.component';
 import { ListRequestComponent } from './components/woodwork/list-request/list-request.component';
 import { ProfileWoodWorkComponent } from './components/woodwork/profile-wood-work/profile-wood-work.component';
+import { RegisterWoodWorkerAdressComponent } from './components/woodwork/register-wood-worker-adress/register-wood-worker-adress.component';
 import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
+import { RegisterWoodWorkercontactComponent } from './components/woodwork/register-wood-workercontact/register-wood-workercontact.component';
+import { RegisterWoodWorkerpasswordComponent } from './components/woodwork/register-wood-workerpassword/register-wood-workerpassword.component';
 import { SearchClientComponent } from './components/woodwork/search-client/search-client.component';
 import { SearchRequestComponent } from './components/woodwork/search-request/search-request.component';
 
@@ -40,9 +43,9 @@ const routes: Routes = [
   {path:'registerClientContact', component: RegisterClientContactComponent},
   {path:'registerClientPassword', component: RegisterClientPasswordComponent},
   {path:'registerWoodworker', component: RegisterWoodWorkerComponent},
-  {path:'registerWoodworkContact', component: RegisterWoodWorkerComponent },
-  {path:'registerWoodworkPassword', component: RegisterWoodWorkerComponent },
-  {path:'registerWoodworkAddress', component: RegisterWoodWorkerComponent },
+  {path:'registerWoodworkContact', component: RegisterWoodWorkercontactComponent },
+  {path:'registerWoodworkPassword', component: RegisterWoodWorkerpasswordComponent },
+  {path:'registerWoodworkAddress', component: RegisterWoodWorkerAdressComponent },
   {path:'request', component: RequestComponent},
   {path:'searchClient', component: SearchClientComponent},
   {path:'searchRequest', component: SearchRequestComponent},

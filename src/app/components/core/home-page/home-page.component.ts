@@ -18,7 +18,7 @@ export class HomePageComponent implements OnInit {
   }
 
   signAsWoodWorker(): void {
-    this.router.navigate(["registerWoodwork"])
+    this.router.navigate(["registerWoodworker"])
   }
 
   signAsClient(): void {
