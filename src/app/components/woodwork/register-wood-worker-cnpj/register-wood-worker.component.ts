@@ -14,7 +14,12 @@ export class RegisterWoodWorkerComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+  Back():void{
+    this.router.navigate([""])
+  }
+  Next():void{
+    this.router.navigate(["registerClientContact"])
+  }
  nextStepIfRegister(){
   this.router.navigate(["registerWoodworkContact"])
  }

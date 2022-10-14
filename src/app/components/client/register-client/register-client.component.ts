@@ -15,6 +15,9 @@ export class RegisterClientComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  Back():void{
+    this.router.navigate([""])
+  }
   Next():void{
     this.router.navigate(["registerClientContact"])
   }
