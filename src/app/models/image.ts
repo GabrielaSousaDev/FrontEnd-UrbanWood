@@ -2,6 +2,6 @@ import { Login } from "./login"
 
 export interface Image {
     id: Login, 
-    name: String, 
-    byte[]: code
+    name: string, 
+    byte: string
 }
