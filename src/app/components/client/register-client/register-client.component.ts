@@ -1,3 +1,4 @@
+import { ClientService } from './../../../service/client.service';
 import { allClient } from './../../../models/allClient';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
@@ -28,7 +29,10 @@ export class RegisterClientComponent implements OnInit {
 
   currentTab: number = 0;
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router,
+    private clientService: ClientService
+    ) { }
 
   ngOnInit(): void {
   }
@@ -36,6 +40,16 @@ export class RegisterClientComponent implements OnInit {
   addTab(n: number) {
     if (this.currentTab >= 0 && this.currentTab <= 3)
       this.currentTab = this.currentTab + n;
+      
+      console.log(this.currentTab);
+      
+  }
+
+  doRegister(){
+    this.clientService.addClient(this.client).subscribe((data: any) => {
+      this.client = data
+      console.log(this.client)
+    });
   }
   
 }

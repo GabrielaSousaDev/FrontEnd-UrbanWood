@@ -1,7 +1,9 @@
+{{ client | json}}
 <div class="tab" *ngIf="currentTab == 0">
   <div class="title">
     <p>Sign in as Client</p>
   </div>
+
 
   <div class="foto-perfil">
     <img src="../../../../assets/perfil.svg" alt="">
@@ -23,6 +25,7 @@
       <label for="exampleFormControlInput1" class="form-label">Last Name</label>
       <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.lastName">
     </div>
+
 
   </div>
 
@@ -61,12 +64,12 @@
   <div class="input">
 
     <div>
-      <label for="exampleFormControlInput1" class="form-label">Login</label>
+      <label for="exampleFormControlInput1" class="form-label">Password</label>
       <input type="password" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.password">
     </div>
 
     <div>
-      <label for="exampleFormControlInput1" class="form-label">Password</label>
+      <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
       <input type="password" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.password">
     </div>
 
@@ -112,7 +115,7 @@
 
     <div>
       <label for="exampleFormControlInput1" class="form-label">CEP</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.complement">
+      <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.cep">
     </div>
 
   </div>
@@ -123,7 +126,7 @@
     *ngIf="currentTab != 0">Back</button>
   <button type="button" style="width: 10%;" class="btn btn-warning" (click)="addTab(+1)"
     *ngIf="currentTab != 3">Next</button>
-  <button type="button" style="width: 10%;" class="btn btn-success" (click)="addTab(+1)"
+  <button type="button" style="width: 10%;" class="btn btn-success" (click)="doRegister()"
     *ngIf="currentTab == 3">Cadastrar</button>
 </div>
 
