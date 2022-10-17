@@ -10,7 +10,7 @@ export class WoodworkService {
 
   woodworkRefresh = new EventEmitter<string>()
 
-  endPointClient: string = 'http://localhost:8080/client/'
+  endPointClient: string = 'http://localhost:8080/woodwork/'
 
   constructor(private http: HttpClient) {}
 
@@ -28,8 +28,8 @@ export class WoodworkService {
 
   //  PUT  //
 
-  updateWoodwork(id: number): Observable<allWoodwork> {
-    return this.http.put<allWoodwork>(this.endPointClient, id);
+  updateWoodwork(postData: number): Observable<allWoodwork> {
+    return this.http.put<allWoodwork>(this.endPointClient, postData);
   }
 
   // DELETE //
