@@ -22,9 +22,15 @@ export class ClientService {
 
   //  GET  //
 
-  
+  getClient(id: number): Observable<allClient> {
+    return this.http.get<allClient>(this.endPointClient + id);
+  }
 
   //  PUT  //
+
+  updateClient(id: number): Observable<allClient> {
+    return this.http.put<allClient>(this.endPointClient, id);//
+  }
 
 
 }
