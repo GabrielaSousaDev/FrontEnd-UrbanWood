@@ -1,3 +1,4 @@
+import { WoodworkService } from './../../../service/woodwork.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { allWoodwork } from 'src/app/models/allWoodwork';
@@ -29,7 +30,8 @@ export class RegisterWoodWorkerComponent implements OnInit {
 
   currentTab: number = 0;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router,
+              private woodworkService: WoodworkService) { }
 
   ngOnInit(): void {
   }
@@ -39,6 +41,13 @@ export class RegisterWoodWorkerComponent implements OnInit {
       this.currentTab = this.currentTab + n;
 
     console.log(this.currentTab);
+  }
+
+  doRegister(){
+    this.woodworkService.addWoodwork(this.woodwork).subscribe((data: any) => {
+      this.woodwork = data
+      console.log(this.woodwork)
+    });
   }
 
 }
