@@ -1,7 +1,6 @@
-import { Login } from "./login"
 
 export interface Image {
-    id: Login, 
+    id: number, 
     name: string, 
     byte: string
 }
