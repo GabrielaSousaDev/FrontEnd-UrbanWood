@@ -1,4 +1,7 @@
 {{ woodwork | json}}
+
+<main class="d-flex justify-content-center row ">
+
 <div class="tab" *ngIf="currentTab == 0">
 
   <div class="title">
@@ -14,7 +17,7 @@
     <div>
       <label class="form-label">CNPJ</label>
       <input type="number" maxlength="14" class="form-control"
-        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" mask="CPF_CNPJ">
+        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" mask="CPF_CNPJ" [(ngModel)]="woodwork.cnpj">
     </div>
 
     <div>
@@ -130,3 +133,4 @@
   <span class="step" [ngStyle]="{'background-color': (currentTab == 2 ? '#ffc000' : '#ffffff')}"></span>
   <span class="step" [ngStyle]="{'background-color': (currentTab == 3 ? '#ffc000' : '#ffffff')}"></span>
 </div>
+</main>
