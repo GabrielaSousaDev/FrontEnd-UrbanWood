@@ -26,10 +26,16 @@ export class ClientService {
     return this.http.get<allClient>(this.endPointClient + id);
   }
 
+
   //  PUT  //
 
-  updateClient(id: number): Observable<allClient> {
-    return this.http.put<allClient>(this.endPointClient, id);//
+  updateClient(postData: allClient): Observable<allClient> {
+    return this.http.put<allClient>(this.endPointClient, postData);
+  }
+
+  // DELETE //
+  deleteClient(id: number): Observable<allClient> {
+    return this.http.delete<allClient>(this.endPointClient + id);
   }
 
 
