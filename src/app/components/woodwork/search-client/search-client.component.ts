@@ -9,6 +9,7 @@ import { searchClient } from 'src/app/models/searchClient';
 export class SearchClientComponent implements OnInit {
 
   woodwork: searchClient = {
+    id: 0,
     cpfClient: '',
     phone: '',
     firstName: ''

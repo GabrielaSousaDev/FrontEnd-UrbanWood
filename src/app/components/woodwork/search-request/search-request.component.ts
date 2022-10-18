@@ -9,6 +9,7 @@ import { searchRequest } from 'src/app/models/searchRequest';
 export class SearchRequestComponent implements OnInit {
 
   woodwork: searchRequest = {
+    id: 0,
     firstName: '',
     startDate: '',
     endDate: '',
