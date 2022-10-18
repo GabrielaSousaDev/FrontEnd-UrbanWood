@@ -1,5 +1,4 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
-<link rel="stylesheet" href="./filter-woodworks.component.scss">
+{{ client | json }}
 
 <main class="d-flex justify-content-center row ">
 <section class="body">
@@ -7,29 +6,28 @@
         <p>Select some preference to find the best woodworking for you!</p>
     </div>
 
-    <form id="form-input">
+    <div id="form-input">
         <div class="mb-3 " style="width: 60%;">
             <label for="exampleFormControlInput1" class="form-label">Woodworking´s name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" [([(ngModel)]="client.woodworkName">
+            <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.woodworkName">
         </div>
         <div class="mb-3" style="width: 60%;">
             <label for="exampleFormControlInput1" class="form-label">CNPJ</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" [([(ngModel)]="client.cnpj">
+            <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.cnpj">
         </div>
 
         <div class="mb-3" style="width: 60%;">
             <label for="exampleFormControlInput1" class="form-label">Phone number</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" [([(ngModel)]="client.phoneNumber">
+            <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.phoneNumber">
         </div>
 
         <div class="mb-3" style="width: 60%;">
             <label for="exampleFormControlInput1" class="form-label">Neighborhood</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" [([(ngModel)]="client.neighborhood">
+            <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.neighborhood">
             
     
         </div>
-        
-    </form>
+    </div>
     <div class="button-1">
         <button type="button" class="btn btn-warning">Search</button></div>
     <div>

@@ -3,6 +3,6 @@ export interface filterWoodworks{
     woodworkName: string,
     cnpj: string,
     phoneNumber: number,
-    neighborhood: string;
-    image: null
+    neighborhood: string,
+    image: null;
 }
