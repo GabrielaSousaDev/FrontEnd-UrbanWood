@@ -1,3 +1,4 @@
+import { FilterWoodworksComponent } from './components/client/filter-woodworks/filter-woodworks.component';
 
 
 import { HttpClientModule } from '@angular/common/http';
@@ -35,7 +36,8 @@ import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood
     RegisterClientComponent,
     RegisterWoodWorkerComponent,
     RequestComponent,
-    ClientProfileComponent
+    ClientProfileComponent,
+    FilterWoodworksComponent
   ],
   imports: [
     BrowserModule,
