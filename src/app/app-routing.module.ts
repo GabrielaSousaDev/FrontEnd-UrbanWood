@@ -37,9 +37,7 @@ const routes: Routes = [
   {path:'profileWoodwork', component: ProfileWoodWorkComponent},
   {path:'registerClient', component: RegisterClientComponent},
   {path:'woodworkDescription', component: WoodworkDescriptionComponent},
-
   {path:'registerWoodworker', component: RegisterWoodWorkerComponent},
-
   {path:'request', component: RequestComponent},
   {path:'searchClient', component: SearchClientComponent},
   {path:'searchRequest', component: SearchRequestComponent},

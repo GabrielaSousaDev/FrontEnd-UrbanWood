@@ -23,6 +23,7 @@ import { SearchClientComponent } from './components/woodwork/search-client/searc
 import { SearchRequestComponent } from './components/woodwork/search-request/search-request.component';
 import { LivingAreaClientComponent } from './components/client/living-area-client/living-area-client.component';
 import { ProfileClientComponent } from './components/client/profile-client/profile-client.component';
+import { ProfileClientFullComponent } from './components/client/profile-client-full/profile-client-full.component';
 
 
 
@@ -45,7 +46,9 @@ import { ProfileClientComponent } from './components/client/profile-client/profi
     SearchClientComponent,
     SearchRequestComponent,
     LivingAreaClientComponent,
-    ProfileClientComponent
+    ProfileClientComponent,
+    ProfileClientFullComponent
+  
   ],
   imports: [
     BrowserModule,
