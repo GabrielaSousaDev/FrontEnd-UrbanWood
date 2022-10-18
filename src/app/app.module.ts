@@ -19,6 +19,7 @@ import { HeaderWoodworkComponent } from './components/core/header-woodwork/heade
 import { HomePageComponent } from './components/core/home-page/home-page.component';
 import { ClientProfileComponent } from './components/woodwork/client-profile/client-profile.component';
 import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
+import { SearchClientComponent } from './components/woodwork/search-client/search-client.component';
 
 
 
@@ -37,7 +38,8 @@ import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood
     RegisterWoodWorkerComponent,
     RequestComponent,
     ClientProfileComponent,
-    FilterWoodworksComponent
+    FilterWoodworksComponent,
+    SearchClientComponent
   ],
   imports: [
     BrowserModule,
