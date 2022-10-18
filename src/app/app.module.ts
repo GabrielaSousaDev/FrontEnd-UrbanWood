@@ -21,6 +21,8 @@ import { ClientProfileComponent } from './components/woodwork/client-profile/cli
 import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
 import { SearchClientComponent } from './components/woodwork/search-client/search-client.component';
 import { SearchRequestComponent } from './components/woodwork/search-request/search-request.component';
+import { LivingAreaClientComponent } from './components/client/living-area-client/living-area-client.component';
+import { ProfileClientComponent } from './components/client/profile-client/profile-client.component';
 
 
 
@@ -41,7 +43,9 @@ import { SearchRequestComponent } from './components/woodwork/search-request/sea
     ClientProfileComponent,
     FilterWoodworksComponent,
     SearchClientComponent,
-    SearchRequestComponent
+    SearchRequestComponent,
+    LivingAreaClientComponent,
+    ProfileClientComponent
   ],
   imports: [
     BrowserModule,
