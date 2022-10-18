@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { searchRequest } from 'src/app/models/searchRequest';
 
 @Component({
   selector: 'app-search-request',
@@ -6,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-request.component.scss']
 })
 export class SearchRequestComponent implements OnInit {
+
+  woodwork: searchRequest = {
+    firstName: '',
+    startDate: '',
+    endDate: '',
+    phone: '',
+    status: ''
+  }
 
   constructor() { }
 
