@@ -135,12 +135,7 @@
 
     width: 50%;
 }
-.exemplo {
-    width: 100%;
-    height: 5vw;
 
-    border: 2px solid #1A67AE;
-}
 .button {
     display: flex;
     gap: 20px;
