@@ -1,5 +1,6 @@
 
 
+import { HttpClientModule } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
@@ -30,16 +31,15 @@ import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood
     ListFurnitureClientComponent,
     ClientFurnitureComponent,
     ClientFurnitureComponent,
-
     RegisterClientComponent,
     RegisterWoodWorkerComponent,
     RequestComponent
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
