@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { profileClient } from 'src/app/models/profileClient';
 
 @Component({
   selector: 'app-profile-client',
@@ -7,6 +8,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./profile-client.component.scss']
 })
 export class ProfileClientComponent implements OnInit {
+
+  client: profileClient = {
+    id: 0,
+    name: '',
+    cpf: '',
+    lastName: ''
+  }
 
   constructor(private router : Router) { }
 

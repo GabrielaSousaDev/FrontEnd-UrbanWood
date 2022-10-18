@@ -1,3 +1,5 @@
+{{ client | json }}
+
 <main class="d-flex justify-content-center row ">
 
 <div class="title">
@@ -9,16 +11,16 @@
 <div class="input">
   <div>
     <label for="exampleFormControlInput1" class="form-label">CPF</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.cpf">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.name">
   </div>
   <div>
     <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.lastName">
   </div>
 </div>
 <div class="button">
