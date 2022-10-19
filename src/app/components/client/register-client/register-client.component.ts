@@ -15,7 +15,7 @@ export class RegisterClientComponent implements OnInit {
     firstName: "",
     lastName: "",
     cpfClient: "",
-    nameStreet: "",
+    streetName: "",
     number: 0,
     complement: "",
     neighborhood: "",
@@ -24,7 +24,8 @@ export class RegisterClientComponent implements OnInit {
     socialNetwork: "",
     email: "",
     phone: "",
-    password: ""
+    password: "",
+    login: ""
   }
 
   currentTab: number = 0;

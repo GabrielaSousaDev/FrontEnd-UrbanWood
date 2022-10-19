@@ -64,10 +64,16 @@
 #exampleFormControlInput1 {
     width: 120%;
 }
+.exemplo {
+    display: flex;
+    width: 54%;
+    margin-left: 2vw;
+    height: 7vw;
+}
 
 .button {
     display: flex;
     justify-content: center;
-    margin-top: 5vw;
+    margin-top: 2vw;
     margin-bottom: 5vw;
 }
