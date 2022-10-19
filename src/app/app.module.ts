@@ -24,6 +24,7 @@ import { SearchRequestComponent } from './components/woodwork/search-request/sea
 import { LivingAreaClientComponent } from './components/client/living-area-client/living-area-client.component';
 import { ProfileClientComponent } from './components/client/profile-client/profile-client.component';
 import { ProfileClientFullComponent } from './components/client/profile-client-full/profile-client-full.component';
+import { ProfileWoodWorkFullComponent } from './components/woodwork/profile-wood-work-full/profile-wood-work-full.component';
 
 
 
@@ -47,7 +48,8 @@ import { ProfileClientFullComponent } from './components/client/profile-client-f
     SearchRequestComponent,
     LivingAreaClientComponent,
     ProfileClientComponent,
-    ProfileClientFullComponent
+    ProfileClientFullComponent,
+    ProfileWoodWorkFullComponent
   
   ],
   imports: [
