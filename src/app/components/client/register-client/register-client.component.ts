@@ -15,7 +15,7 @@ export class RegisterClientComponent implements OnInit {
     firstName: "",
     lastName: "",
     cpfClient: "",
-    nameStreet: "",
+    streetName: "",
     number: 0,
     complement: "",
     neighborhood: "",
