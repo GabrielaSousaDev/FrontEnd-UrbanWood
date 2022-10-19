@@ -49,7 +49,8 @@ import { ProfileWoodWorkFullComponent } from './components/woodwork/profile-wood
     LivingAreaClientComponent,
     ProfileClientComponent,
     ProfileClientFullComponent,
-    ProfileWoodWorkFullComponent
+    ProfileWoodWorkFullComponent,
+    ClientFurnitureComponent
   
   ],
   imports: [

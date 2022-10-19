@@ -64,7 +64,8 @@
     
         <div class="exemplo">
           <label for="exampleFormControlTextarea1" class="form-label">Exemplo: </label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ex: Alguma cor específica, tamanho personalizado, tempo de entrega, etc."></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ex: Alguma cor específica, tamanho personalizado, tempo de entrega, etc." [(ngModel)]="client.description">
+          </textarea>
         </div>
       
         <form class="button">

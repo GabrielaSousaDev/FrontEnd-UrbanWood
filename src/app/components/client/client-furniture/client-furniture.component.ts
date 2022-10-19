@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Furniture } from 'src/app/models/furniture';
 
 @Component({
   selector: 'app-client-furniture',
@@ -7,6 +8,18 @@ import { Router } from '@angular/router';
   styleUrls: ['./client-furniture.component.css']
 })
 export class ClientFurnitureComponent implements OnInit {
+
+  client: Furniture= {
+    idFurniture: 0,
+    name: '',
+    price: 0,
+    description: '',
+    SizeFurniture: '',
+    environment: '',
+    color: '',
+    image: '',
+    id_woodwork: 0
+  }
 
   constructor(private router:Router) { }
 
