@@ -24,7 +24,8 @@ export class RegisterClientComponent implements OnInit {
     socialNetwork: "",
     email: "",
     phone: "",
-    password: ""
+    password: "",
+    login: ""
   }
 
   currentTab: number = 0;

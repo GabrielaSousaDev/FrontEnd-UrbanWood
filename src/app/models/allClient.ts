@@ -11,7 +11,8 @@ export interface allClient{
     cep: string,
     socialNetwork: string,
     email: string,
-    phone: string;
-    password: string
+    phone: string,
+    password: string,
+    login: string;
 
 }
