@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { searchClient } from 'src/app/models/searchClient';
 
 @Component({
   selector: 'app-search-client',
@@ -6,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-client.component.scss']
 })
 export class SearchClientComponent implements OnInit {
+
+  woodwork: searchClient = {
+    id: 0,
+    cpfClient: '',
+    phone: '',
+    firstName: ''
+  }
+
   service: any;
  /* search: Search = { exampleFormControlInput1: "", exampleFormControlInput2: "", exampleFormControlInput3: "" }*/
 

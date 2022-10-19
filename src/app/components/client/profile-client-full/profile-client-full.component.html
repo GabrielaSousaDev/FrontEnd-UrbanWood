@@ -1,3 +1,7 @@
+{{ client | json }}
+
+<main class="d-flex justify-content-center row ">
+
 <div class="title">
   <p>Profile</p>
 </div>
@@ -10,17 +14,17 @@
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">CPF</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.cpfClient">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.name">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.lastName">
   </div>
 
 </div>
@@ -33,17 +37,17 @@
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Street</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.streetName">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Number</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.number">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Complement</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.complement">
   </div>
 
 </div>
@@ -52,17 +56,17 @@
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Neighbor</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.neighborhood">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">City</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.city">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">CEP</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.cep">
   </div>
 
 </div>
@@ -74,20 +78,22 @@
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Phone number</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.phone">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.email">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Social Network</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="client.socialNetwork">
   </div>
 
 </div>
 <div class="button">
   <button type="button" style="width: 10%;" class="btn btn-warning" (click)="Confirm()">Confirm</button>
 </div>
+
+</main>

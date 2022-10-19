@@ -1,3 +1,7 @@
+{{ woodwork | json }}
+
+<main class="d-flex justify-content-center row ">
+
 <div class="title">
   <p>Profile</p>
 </div>
@@ -10,17 +14,17 @@
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">CPF</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="woodwork.cpfClient"> 
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput2">
+    <input type="email" class="form-control" id="exampleFormControlInput2" [(ngModel)]="woodwork.name" >
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput3">
+    <input type="email" class="form-control" id="exampleFormControlInput3" [(ngModel)]="woodwork.lastName">
   </div>
 
 </div>
@@ -33,17 +37,17 @@
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Street</label>
-    <input type="email" class="form-control" id="exampleFormControlInput4">
+    <input type="email" class="form-control" id="exampleFormControlInput4" [(ngModel)]="woodwork.street">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Number</label>
-    <input type="email" class="form-control" id="exampleFormControlInput5">
+    <input type="email" class="form-control" id="exampleFormControlInput5" [(ngModel)]="woodwork.number">
   </div>
 
   <div>
     <label for="exampleFormControlInput1" class="form-label">Complement</label>
-    <input type="email" class="form-control" id="exampleFormControlInput6">
+    <input type="email" class="form-control" id="exampleFormControlInput6" [(ngModel)]="woodwork.complement">
   </div>
 
 </div>
@@ -51,15 +55,15 @@
 <div class="input-2">
   <div>
     <label for="exampleFormControlInput1" class="form-label">Neighbor</label>
-    <input type="email" class="form-control" id="exampleFormControlInput7">
+    <input type="email" class="form-control" id="exampleFormControlInput7" [(ngModel)]="woodwork.neighborhood">
   </div>
   <div>
     <label for="exampleFormControlInput1" class="form-label">City</label>
-    <input type="email" class="form-control" id="exampleFormControlInput8">
+    <input type="email" class="form-control" id="exampleFormControlInput8" [(ngModel)]="woodwork.city">
   </div>
   <div>
     <label for="exampleFormControlInput1" class="form-label">CEP</label>
-    <input type="email" class="form-control" id="exampleFormControlInput9">
+    <input type="email" class="form-control" id="exampleFormControlInput9" [(ngModel)]="woodwork.cep">
   </div>
 </div>
 
@@ -70,15 +74,15 @@
 <div class="input">
   <div>
     <label for="exampleFormControlInput1" class="form-label">Phone number</label>
-    <input type="email" class="form-control" id="exampleFormControlInput10">
+    <input type="email" class="form-control" id="exampleFormControlInput10" [(ngModel)]="woodwork.phone">
   </div>
   <div>
     <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-    <input type="email" class="form-control" id="exampleFormControlInput11">
+    <input type="email" class="form-control" id="exampleFormControlInput11" [(ngModel)]="woodwork.email">
   </div>
   <div>
     <label for="exampleFormControlInput1" class="form-label">Social Network</label>
-    <input type="email" class="form-control" id="exampleFormControlInput12">
+    <input type="email" class="form-control" id="exampleFormControlInput12" [(ngModel)]="woodwork.socialNetwork">
   </div>
 </div>
 <div class="sub-title">
@@ -119,4 +123,6 @@
 <div class="button">
   <button type="button"  style="width: 10%;" class="btn btn-warning">Back</button>
 </div>
+
+</main>
 <!--(click)="back()"-->

@@ -14,9 +14,8 @@ import { ClientProfileComponent } from './components/woodwork/client-profile/cli
 import { ListClientsComponent } from './components/woodwork/list-clients/list-clients.component';
 import { ListRequestComponent } from './components/woodwork/list-request/list-request.component';
 import { ProfileWoodWorkComponent } from './components/woodwork/profile-wood-work/profile-wood-work.component';
-
+import { WoodworkDescriptionComponent } from './components/client/woodwork-description/woodwork-description.component';
 import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
-
 import { SearchClientComponent } from './components/woodwork/search-client/search-client.component';
 import { SearchRequestComponent } from './components/woodwork/search-request/search-request.component';
 
@@ -35,14 +34,11 @@ const routes: Routes = [
   {path:'profileClientFull', component: ProfileClientFullComponent},
   {path:'profileWoodwork', component: ProfileWoodWorkComponent},
   {path:'registerClient', component: RegisterClientComponent},
-
+  {path:'woodworkDescription', component: WoodworkDescriptionComponent},
   {path:'registerWoodworker', component: RegisterWoodWorkerComponent},
-
   {path:'request', component: RequestComponent},
   {path:'searchClient', component: SearchClientComponent},
   {path:'searchRequest', component: SearchRequestComponent},
-
-  
 ];
 
 @NgModule({

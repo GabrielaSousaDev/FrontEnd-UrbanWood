@@ -1,3 +1,4 @@
+import { FilterWoodworksComponent } from './components/client/filter-woodworks/filter-woodworks.component';
 
 
 import { HttpClientModule } from '@angular/common/http';
@@ -16,7 +17,13 @@ import { HeaderClientComponent } from './components/core/header-client/header-cl
 import { HeaderLoginComponent } from './components/core/header-login/header-login.component';
 import { HeaderWoodworkComponent } from './components/core/header-woodwork/header-woodwork.component';
 import { HomePageComponent } from './components/core/home-page/home-page.component';
+import { ClientProfileComponent } from './components/woodwork/client-profile/client-profile.component';
 import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood-worker-cnpj/register-wood-worker.component';
+import { SearchClientComponent } from './components/woodwork/search-client/search-client.component';
+import { SearchRequestComponent } from './components/woodwork/search-request/search-request.component';
+import { LivingAreaClientComponent } from './components/client/living-area-client/living-area-client.component';
+import { ProfileClientComponent } from './components/client/profile-client/profile-client.component';
+import { ProfileClientFullComponent } from './components/client/profile-client-full/profile-client-full.component';
 
 
 
@@ -33,7 +40,15 @@ import { RegisterWoodWorkerComponent } from './components/woodwork/register-wood
     ClientFurnitureComponent,
     RegisterClientComponent,
     RegisterWoodWorkerComponent,
-    RequestComponent
+    RequestComponent,
+    ClientProfileComponent,
+    FilterWoodworksComponent,
+    SearchClientComponent,
+    SearchRequestComponent,
+    LivingAreaClientComponent,
+    ProfileClientComponent,
+    ProfileClientFullComponent
+  
   ],
   imports: [
     BrowserModule,
