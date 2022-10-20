@@ -4,6 +4,11 @@
     font-size: 2vw;
     color: #0E1543;
 }
+body {
+    background-color: #E5E7FA;
+    
+}
+
 
 .form-photo {
     position: absolute;

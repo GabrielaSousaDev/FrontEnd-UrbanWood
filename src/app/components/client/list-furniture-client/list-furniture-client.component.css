@@ -6,6 +6,11 @@
     margin-top: 2vw;
     font-size: 2vw;
 }
+body {
+    background-color: #E5E7FA;
+    
+}
+
 .form-size {
     display: flex;
     justify-content: center;
