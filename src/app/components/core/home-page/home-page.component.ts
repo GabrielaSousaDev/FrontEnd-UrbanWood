@@ -33,6 +33,7 @@ export class HomePageComponent implements OnInit {
     }
   }
 
+  
   loginFailure() {
     this.flag = false;
   }
