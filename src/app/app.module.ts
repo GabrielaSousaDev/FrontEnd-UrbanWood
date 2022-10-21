@@ -1,7 +1,7 @@
 import { FilterWoodworksComponent } from './components/client/filter-woodworks/filter-woodworks.component';
 
 
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
@@ -25,6 +25,8 @@ import { LivingAreaClientComponent } from './components/client/living-area-clien
 import { ProfileClientComponent } from './components/client/profile-client/profile-client.component';
 import { ProfileClientFullComponent } from './components/client/profile-client-full/profile-client-full.component';
 import { ProfileWoodWorkFullComponent } from './components/woodwork/profile-wood-work-full/profile-wood-work-full.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'; 
 
 
 
@@ -50,16 +52,28 @@ import { ProfileWoodWorkFullComponent } from './components/woodwork/profile-wood
     ProfileClientComponent,
     ProfileClientFullComponent,
     ProfileWoodWorkFullComponent,
-    ClientFurnitureComponent
+    ClientFurnitureComponent,
+    
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule
   ],
-  providers: [],
+  providers: [
+      {
+      provide: HTTP_INTERCEPTORS,
+      useClass: HttpClientModule,
+      multi: true
+    }
+  
+  ],
   bootstrap: [AppComponent]
+  
+
 })
 export class AppModule { }
