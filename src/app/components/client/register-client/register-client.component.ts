@@ -41,7 +41,6 @@ export class RegisterClientComponent implements OnInit {
   addTab(n: number) {
     if (this.currentTab >= 0 && this.currentTab <= 3)
       this.currentTab = this.currentTab + n;
-      
       console.log(this.currentTab);
       
   }
