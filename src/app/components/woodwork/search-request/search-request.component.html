@@ -1,0 +1,43 @@
+{{ woodwork | json }}
+
+<main class="d-flex justify-content-center row ">
+
+    <div class="title">
+        <p>Request Search</p>
+    </div>
+    
+    <div class="form-input">
+        <div class="mb-3 " style="width: 17%;">
+            <label for="exampleFormControlInput1" class="form-label">Client Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" [(ngModel)]="woodwork.firstName">
+          </div>
+    
+          <div class="mb-3" style="width: 17%;">
+            <label for="exampleFormControlInput1" class="form-label">Initial date</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" [(ngModel)]="woodwork.startDate">
+          </div>
+    
+          <div class="mb-3" style="width: 17%;">
+            <label for="exampleFormControlInput1" class="form-label">Final date</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" [(ngModel)]="woodwork.endDate">
+          </div>
+        </div>
+    
+    <div class="form-input-2">
+        <div class="mb-3 " style="width: 17%;">
+            <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" [(ngModel)]="woodwork.phone">
+          </div>
+    
+          <div class="mb-3" style="width: 17%;">
+            <label for="exampleFormControlInput1" class="form-label">Status</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" [(ngModel)]="woodwork.status">
+            
+          </div>
+        </div>
+    
+    <form class="form-input-2">
+        <button type="button" class="btn btn-warning" style="width:15%;">Search</button>
+    </form>
+
+</main>

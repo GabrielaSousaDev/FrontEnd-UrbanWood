@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E5E7FA;
+}
+.container-fluid {
+    height: 90px;
+}
+.nav-item {
+        margin-right: 30px;
+        font-size: 16px;
+}
+.navbar {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+.title {
+        display: grid;
+        justify-content: center;
+       
+        margin-top: 3vw;
+        font-size: 1.6vw;
+        color: #0E1543;
+} 
+#description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 5vw;
+    flex-wrap: wrap;
+    gap: 30vw;   
+}
+h3 {
+    text-align: start;
+    margin-bottom: 2vw;
+}
+.sub-title {
+    display: grid;
+    width: 30%;
+    text-align: center;
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+

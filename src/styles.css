@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.patterns_field_text {
+    padding: 0px 0px 0px 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 45px;
+    width: 100%;
+    font-size: 30px;
+    border: 1px solid #1A67AE;
+}
+.pattern_font_text{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pattern_font_tittle {
+    font-weight: 400;
+    font-size: 1em;
+    color: #0E1543;
+}
+.pattern_btn {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    background: #FDA911;
+    border: 2px solid #1A67AE;
+    border-radius: 10px;
+    color: black;
+
+}
+.pattern_btn:hover {
+    background-color: #1A67AE;
+}
+ul,li{
+    list-style: none;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

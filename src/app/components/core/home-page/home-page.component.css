@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    width: 100%;
+    height: 90%;
+    
+    background-color: #E5E7FA;
+}
+
+#wrong{
+    color: red;
+    font-size: 2em;
+}
+#btnClient{
+    margin-top: 1em;
+    
+}
+#Modal {
+    height: 3vw;
+}

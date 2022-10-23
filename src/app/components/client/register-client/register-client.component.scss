@@ -1,0 +1,199 @@
+.title {
+    font-size: 2vw;
+    margin-top: 3vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main {
+    width: 100%;
+    height: 90%;
+    
+    background-color: #E5E7FA;
+}
+
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 5vw;
+}
+
+
+
+#exampleFormControlInput1 {
+    width: 120%;
+    height: 40px;
+    border: 2px solid #1A67AE;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    height: 40px;
+    width: 100%;
+}
+
+
+
+// register client-adress
+
+
+
+.title {
+    font-size: 2vw;
+    margin-top: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 2.5vw;
+}
+
+.input-2 {
+    display: flex;
+    justify-content: center;
+
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 2.5vw;
+}
+
+#exampleFormControlInput1 {
+    width: 120%;
+    height: 40px;
+    border: 2px solid #1A67AE;
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 7vw;
+    gap: 40px;
+    height: 40px;
+    width: 100%;
+
+}
+
+
+//register client-contact
+
+
+
+.title {
+    font-size: 2vw;
+    margin-top: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 5vw;
+}
+
+#exampleFormControlInput1 {
+    width: 120%;
+    height: 40px;
+    border: 2px solid #1A67AE;
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10vw;
+    gap: 40px;
+    height: 40px;
+    width: 100%;
+
+}
+
+
+//register client-password
+
+
+.title {
+    font-size: 2vw;
+    margin-top: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-left: -40px;
+    gap: 10%;
+    margin-top: 5vw;
+}
+
+
+
+#exampleFormControlInput1 {
+    width: 120%;
+    height: 40px;
+    border: 2px solid #1A67AE;
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10vw;
+    gap: 40px;
+    height: 40px;
+    width: 100%;
+}
+
+.steps {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border: 2px #fecb1a solid;
+    border-radius: 50%;
+}

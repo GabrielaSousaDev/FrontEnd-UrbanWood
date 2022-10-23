@@ -1,0 +1,39 @@
+{{ woodwork | json }}
+
+<main class="d-flex justify-content-center row ">
+
+<div class="title">
+  <p>Client Search</p>
+</div>
+
+<div class="form-input">
+  <div class="mb-3 " style="width: 17%;">
+    <label for="exampleFormControlInput1" class="form-label">CPF</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" [(ngModel)]="woodwork.cpfClient">
+  </div>
+</div>
+
+
+<div class="form-input">
+  <div class="mb-3" style="margin-top: 5%;">
+    <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+    <input type="email" class="form-control" id="exampleFormControlInput2" [(ngModel)]="woodwork.phone">
+  </div>
+</div>
+
+
+<div class="form-input">
+  <div class="mb-3 " style="margin-top: 5%;">
+    <label for="exampleFormControlInput1" class="form-label">Client Name</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" [(ngModel)]="woodwork.firstName">
+    <button type="button" (click)="searchClient()" class="btn btn-warning"
+      style="width:80%; margin: 15% 0 0 9.5%;">Search</button>
+  </div>
+</div>
+
+</main>
+
+<!--
+[(ngModel)]="search.exampleFormControlInput1"
+ [(ngModel)]="search.exampleFormControlInput2"
+-->

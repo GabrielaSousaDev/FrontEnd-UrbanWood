@@ -1,0 +1,74 @@
+{{ client | json }}
+
+ <form class="form-photo">
+        <img src="./img/balcao5.svg" alt="">
+      </form>
+      
+      <div class="input-1">
+        <div class="title">
+            <p>Counter 2 Multipurpose Cool Artany Doors</p>
+        </div>  
+        <div class="description">
+            <p>Material: 15mm thick MDP, from reforested wood, in a process in harmony with nature;
+            </p>
+        </div>
+      
+        <div class="color">
+          
+          <form class="form-color">
+            <p>Color options</p>
+          </form>
+      
+          <div class="text-color">
+            <p>Add standart color:</p>
+      
+            <div class="buttons-color">
+              <form class="button-color-1"></form>  
+            </div>
+          </div>
+      
+          <div class="text-color-2">
+            <p>Add color:</p>
+      
+            <div class="buttons-color">
+              <form class="button-color-1"></form>
+              <form class="button-color-2"></form>
+              <form class="button-color-3"></form>
+              <form class="button-color-4"></form>
+      
+            </div>
+          </div>
+        </div>
+        <form class="form-size">
+          <p>Furniture size</p>
+        </form>
+      
+        <div class="size">
+          <p>1 m x 90 cm</p>
+          <p>1,15 m x 90 cm</p>
+          <p>1,25 m x 95 cm</p>
+          <p>1,35 m x 1 m</p>
+        </div>
+      
+        <form class="form-time">
+          <p>Production time </p>
+        </form>
+      
+        <div class="tempo">
+          <p>2 weeks</p>
+        </div>
+        <div class="algo-mais">
+            <p>Anything else?</p>
+        </div>
+    
+        <div class="exemplo">
+          <label for="exampleFormControlTextarea1" class="form-label">Example: </label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ex: Any specific color, custom size, delivery time, etc." [(ngModel)]="client.description">
+          </textarea>
+        </div>
+      
+        <form class="button">
+          <button type="button" class="btn btn-outline-primary" (click)="Somar()"> -    1    +</button>
+          <button type="button" class="btn btn-warning" (click)="Adicionar()">Add to cart   R$ 300,00</button>
+        </form>
+      </div>

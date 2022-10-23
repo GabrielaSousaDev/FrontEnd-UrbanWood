@@ -1,56 +1,40 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
-import { Address } from '../models/woodwork/Woodwork';
+import { allWoodwork } from './../models/allWoodwork';
+import { Injectable, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http'
 
 @Injectable({
-	providedIn: 'root'
+  providedIn: 'root'
 })
-
 export class WoodworkService {
 
-    private endpoint = private endpoint = 'http://localhost:8080/woodwork/'
+  woodworkRefresh = new EventEmitter<string>()
 
-    constructor (private client: HttpClient ) { }
+  endPointWoodwork: string = 'http://localhost:8080/woodwork/'
 
-    addWoodwork( woodwork: Woodwork): Observable<Woodwork> {
-        return this.client.post<Woodwork>(this.endpoint, woodwork);
-    }
+  constructor(private http: HttpClient) {}
 
-    updateWoodwork( woodwork: Woodwork): Observable<Woodwork> {
-        return this.client.put<Woodwork>(this.endpoint, woodwork);
-    }
+  //  POST  //
 
-    deleteWoodwork( woodwork: Woodwork): Observable<Woodwork> {
-        return this.client.delete<Woodwork>(this.endpoint, woodwork);
-    }
+  addWoodwork(postData: allWoodwork): Observable<allWoodwork> {
+    return this.http.post<allWoodwork>(this.endPointWoodwork, postData);
+  }
 
-    getWoodworksById( id: number): Observable<Woodwork[]> {
-        return this.client.get<Woodworks[]>(this.endpoint, id);
-    }
+  //  GET  //
 
-    getWoodworksByCnpj( cnpj: string): Observable<Woodwork[]> {
-        return this.client.get<Woodworks[]>(this.endpoint, cnpj);
-    }
+  getWoodwork(id: number): Observable<allWoodwork> {
+    return this.http.get<allWoodwork>(this.endPointWoodwork + id);
+  }
 
-    getWoodworksByName( name: string): Observable<Woodwork[]> {
-        return this.client.get<Woodworks[]>(this.endpoint, name);
-    }
+  //  PUT  //
 
-/*
-    Screen    |||
-    Screen    |||
-    Screen    vvv
-*/ 
-    getWoodworksC8ById( id: number): Observable<Woodwork[]> {
-        return this.client.get<Woodworks[]>(this.endpoint, id);
-    }
+  updateWoodwork(postData: number): Observable<allWoodwork> {
+    return this.http.put<allWoodwork>(this.endPointWoodwork, postData);
+  }
 
-    getWoodworksC9ByCompanyName( companyName: string): Observable<Woodwork[]> {
-        return this.client.get<Woodworks[]>(this.endpoint, companyName);
-    }
-
-    getWoodworksW8byId( id: number): Observable<Woodwork[]> {
-        return this.client.get<Woodworks[]>(this.endpoint, id);
-    }
+  // DELETE //
+  
+  deleteWoodowork(id: number): Observable<allWoodwork> {
+    return this.http.delete<allWoodwork>(this.endPointWoodwork + id);
+  }
 }

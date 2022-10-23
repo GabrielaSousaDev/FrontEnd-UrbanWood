@@ -1,52 +1,42 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
-import { Client } from '../models/client/Client';
+import { allClient } from './../models/allClient';
+import { Injectable, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http'
 
 @Injectable({
-	providedIn: 'root'
+  providedIn: 'root'
 })
-
 export class ClientService {
 
-    private endpoint = 'http://localhost:8080/client/'
+  clientRefresh = new EventEmitter<string>()
 
-    constructor(private client: HttpClient) { }
+  endPointClient: string = 'http://localhost:8080/client/'
 
-    addClient ( client: Client) : Observable<Client> {
-        return this.client.post<Client>(this.endpoint, client);
-    }
+  constructor(private http: HttpClient) {}
 
-    updateClient( client: Client): Observable<Client> {
-        return this.client.put<Client>(this.endpoint, client);
-    }
+  //  POST  //
 
-    deleteClient( client: Client): Observable<Client> {
-        return this.client.delete<Client>(this.endpoint, client);
-    }
+  addClient(postData: allClient): Observable<allClient> {
+    return this.http.post<allClient>(this.endPointClient, postData);
+  }
 
-    getClientsById(id: number): Observable<Client[]> {
-        return this.client.get<Client[]>(this.endpoint + 'search/' + id);
-    }
+  //  GET  //
 
-    getClientsByCpf(cpf: string): Observable<Client[]> {
-        return this.client.get<Client[]>(this.endpoint + 'search/' + cpf);
-    }
+  getClient(id: number): Observable<allClient> {
+    return this.http.get<allClient>(this.endPointClient + id);
+  }
 
-    getClientsByName(name: string): Observable<Client[]> {
-        return this.client.get<Client[]>(this.endpoint + 'search/' + name);
-    }
 
-    getClientsW9ByName(name: string): Observable<Client[]> {
-        return this.client.get<Client[]>(this.endpoint + 'search/' + name);
-    }
+  //  PUT  //
 
-    getClientsW10ById(id: number): Observable<Client[]> {
-        return this.client.get<Client[]>(this.endpoint + 'search/' + id);
-    }
+  updateClient(postData: allClient): Observable<allClient> {
+    return this.http.put<allClient>(this.endPointClient, postData);
+  }
 
-    getClientsC13ById(id: number) : Observable<Client[]> {
-        return this.client.get<Client[]>(this.endpoint + 'search/' + id);
-    }
+  // DELETE //
+  deleteClient(id: number): Observable<allClient> {
+    return this.http.delete<allClient>(this.endPointClient + id);
+  }
+
 
 }
