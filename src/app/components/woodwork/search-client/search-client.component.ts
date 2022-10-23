@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { searchClient } from 'src/app/models/searchClient';
 
 @Component({
@@ -18,11 +19,11 @@ export class SearchClientComponent implements OnInit {
   service: any;
  /* search: Search = { exampleFormControlInput1: "", exampleFormControlInput2: "", exampleFormControlInput3: "" }*/
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-  searchClient(): void {
-    /*this.service.addUser(this.search).subscribe(); */
-   }
+  searchClient():void{
+    this.router.navigate(["listRequest"])
+  }
 }

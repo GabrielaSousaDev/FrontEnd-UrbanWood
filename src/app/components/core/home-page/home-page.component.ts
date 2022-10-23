@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
+import { UserService } from 'src/app/service/user.service';
 
 @Component({
   selector: 'app-home-page',
@@ -7,11 +8,15 @@ import {Router} from '@angular/router';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  email: string = "";
-  password: string = "";
+  
+  holder: any = {
+  email: "",
+  password: ""
+}
   flag: boolean = false;
 
-  constructor(private router: Router) {
+  constructor(private router: Router,
+              private service: UserService) {
   }
 
   ngOnInit(): void {
@@ -26,13 +31,13 @@ export class HomePageComponent implements OnInit {
   }
 
   login(): void {
-    if (this.email === "ubanwood@entra21.com.br" && this.password === "123456") {
-      this.flag = false;
-    } else if (this.email != "ubanwood@entra21.com.br" && this.password != "123456") {
-      this.flag = true;
-    }
+    this.service.login(this.holder).subscribe(res => {
+      let userAutenticado = res
+      
+      this.service.setUser([userAutenticado])
+      this.router.navigate(['home/' + res.id])
+    })
   }
-
   loginFailure() {
     this.flag = false;
   }

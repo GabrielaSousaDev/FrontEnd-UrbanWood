@@ -18,7 +18,7 @@
                     <div class="input-group mb-3">
                         <span class="input-group-text">E-mail</span>
                         <input type="text" class="form-control patterns_field_text" aria-label="Sizing example input"
-                               aria-describedby="inputGroup-sizing-default" [(ngModel)]="email" >
+                               aria-describedby="inputGroup-sizing-default">
                     </div>
                 </div>
             </li>
@@ -27,9 +27,10 @@
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
                         <input type="password" class="form-control" aria-label="Sizing example input"
-                            aria-describedby="inputGroup-sizing-default" [(ngModel)]="password">
+                            aria-describedby="inputGroup-sizing-default">
                     </div>
                 </div>
+
             </li>
             <li><button type="button" class="pattern_btn me-3 p-3" data-bs-toggle="modal" data-bs-target="#Modal"
                         (click)="login()" >Login</button>
