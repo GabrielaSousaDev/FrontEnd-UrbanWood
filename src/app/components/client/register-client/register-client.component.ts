@@ -15,7 +15,7 @@ export class RegisterClientComponent implements OnInit {
     firstName: "",
     lastName: "",
     cpfClient: "",
-    nameStreet: "",
+    streetName: "",
     number: 0,
     complement: "",
     neighborhood: "",
@@ -24,7 +24,8 @@ export class RegisterClientComponent implements OnInit {
     socialNetwork: "",
     email: "",
     phone: "",
-    password: ""
+    password: "",
+    login: ""
   }
 
   currentTab: number = 0;
@@ -40,7 +41,6 @@ export class RegisterClientComponent implements OnInit {
   addTab(n: number) {
     if (this.currentTab >= 0 && this.currentTab <= 3)
       this.currentTab = this.currentTab + n;
-      
       console.log(this.currentTab);
       
   }

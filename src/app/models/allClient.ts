@@ -3,7 +3,7 @@ export interface allClient{
     firstName: string,
     lastName: string,
     cpfClient: string,
-    nameStreet: string,
+    streetName: string,
     number: number,
     complement: string,
     neighborhood: string,
@@ -11,7 +11,8 @@ export interface allClient{
     cep: string,
     socialNetwork: string,
     email: string,
-    phone: string;
-    password: string
+    phone: string,
+    password: string,
+    login: string;
 
 }

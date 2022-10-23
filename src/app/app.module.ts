@@ -1,7 +1,7 @@
 import { FilterWoodworksComponent } from './components/client/filter-woodworks/filter-woodworks.component';
 
 
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
@@ -24,6 +24,13 @@ import { SearchRequestComponent } from './components/woodwork/search-request/sea
 import { LivingAreaClientComponent } from './components/client/living-area-client/living-area-client.component';
 import { ProfileClientComponent } from './components/client/profile-client/profile-client.component';
 import { ProfileClientFullComponent } from './components/client/profile-client-full/profile-client-full.component';
+import { ProfileWoodWorkFullComponent } from './components/woodwork/profile-wood-work-full/profile-wood-work-full.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { TvRoomComponent } from './components/client/tv-room/tv-room.component';
+import { LivingRoomComponent } from './components/client/living-room/living-room.component';
+import { DiningRoomComponent } from './components/client/dining-room/dining-room.component';
+import { BedroomComponent } from './components/client/bedroom/bedroom.component';
 
 
 
@@ -47,16 +54,35 @@ import { ProfileClientFullComponent } from './components/client/profile-client-f
     SearchRequestComponent,
     LivingAreaClientComponent,
     ProfileClientComponent,
-    ProfileClientFullComponent
+    ProfileClientFullComponent,
+    ProfileWoodWorkFullComponent,
+    ClientFurnitureComponent,
+    TvRoomComponent,
+    LivingRoomComponent,
+    DiningRoomComponent,
+    BedroomComponent
+    
+    
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule
   ],
-  providers: [],
+  providers: [
+      {
+      provide: HTTP_INTERCEPTORS,
+      useClass: HttpClientModule,
+      multi: true
+    }
+  
+  ],
   bootstrap: [AppComponent]
+  
+
 })
 export class AppModule { }

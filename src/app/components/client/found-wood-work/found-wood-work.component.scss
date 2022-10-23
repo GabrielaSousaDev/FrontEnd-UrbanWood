@@ -30,7 +30,17 @@ body {
     grid-template-columns: auto auto;
     gap: 8vw;
     justify-content: center;
-    margin-top: 4vw;
+    height: 4px;
+    width: 130%;
+
+}
+.form-3{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8vw;
+    justify-content: center;
+    height: 50px;
+    width: 80%;
 }
 .imagem-1 {
     padding: 1vw;
@@ -42,7 +52,7 @@ body {
 }
 .title {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
     font-size: 2vw;
     color: #0E1543;
 }
