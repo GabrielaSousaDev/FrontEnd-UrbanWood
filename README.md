@@ -69,7 +69,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://lh3.googleusercontent.com/xFsiuhWeqeTRIuLSIEjnfp4x9ez9cKTqlqf3vfQN3eryVC3cAZ62bJ6rmeTTCraN5WTzmhpqXz9Itor4blMEMRqs1rcCEaAvOMvww1mf9sqV2bGZMpEl7bOA9_Dbr6lFZufbI_rc6qNp6A-HfoWCShpN3-6azxkq9dJCho5BYlO6YC3V72VFB9tfze00BS9vE_huvtjIe8HwVfzHeClWgHKZOU8UYR6Vo_lPgT_UvSAeJVvTbHVQZOb38msDffdaYfB1d3q6De0lar3qq9tz6vyiZW8J1Kyi4AS5CUct0g4ylwk3cQcG-8t_r3TLt4BtG9mnhJH3x4ruf8PYnX4lv6e4SUXc3oypl8tFOyneSiSUV4UhX6X5uc46Q8B7AbHJxdUDVqxpr84VGWkdmQ-i4qNddFnUz7dVnI2Ix0YKh4kV3vNmaIEwJ7_dTSdzBUHHCSJV3Fc_qVlUoOzlv9Z5X9pGqsuGFg9igbwsT_xYsg8kcqJpjRx2RFvrG0kn7GhAlPy92ruhMe6xDkRbAuuEaIyWtfH7nqx3cDp_BaHZHR6JPiLXG0w6aoIC2jZzwuBDQ6fxaUZp9hSJ7Bv9q8UIpFtLSXv-1A67wkHdyijhplpmukLQQhEanHel1ENvfRpQoWVI0Qf9GADJTqKDWqtLcZ6KKj3W1qtZ1XRp8MS1DoiidxpygrhyftJkW7qpKV1AwXfoj6ZIcMeeEAUGf3x7tc3DqxjlL5ar4COuRp-r5XJW6pdsgmYZWP_F6fOzJbICJS3ebGPnaG87tLK-9I308p8sVorsGF1MUaTEnCETYcUgRwbhtZxEvjgl_FzNS0XphoORCau5Js-ao34-vzXnp9hKGeReSkJ-kUSkhNPaWPkFTWJBhTlJbtbIPQbHHQZVMtRvvRnuLHUk9rGaUCrgrh7lociet6dG26-UKLYSKeedI9gpY7_svfyZcrAOeWUO-qsHZODz72uCbinWmDs=w346-h614-no?authuser=1" width="100px;" alt="Foto Andriely Moirer Bona"/><br>
+        <img src="" width="100px;" alt="Foto Andriely Moirer Bona"/><br>
         <sub>
           <b>Andriely Moirer Bona</b>
         </sub>
@@ -77,7 +77,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://lh3.googleusercontent.com/WSd_zKFEbD-gGZ69lgF9MCiJgyHbtEjvmjNTHrro0B1CuuewM5SjBAsX3J2ta_BteAH1Wfs1yJbcz4jz_CZ-PtkFzOAcpciWFmJWDq9xHncK_U1HwSkITp1k7gi8ZPADxW7SMGYVVc0Uli4Rvc3L9izJtxbTwiOrsxs0ueOtq0HsxNV63A2o7YRSq14zqpMbejI3V50LVA3eRV8ruce6xwdTaVOpZFOoZLUcKoXCS2OG9MJi0zWcgPJ0ECvBJWob6sSexIFHvIQ2kajcno30UnsZV6p9NUafWxl-miH4cE1che18xWeBB8IY-KeM8nZ62-uy19_1bgcSLwqFneqgGRrdIoKJQjDBrvDhgmDifSyb9MWMYnQ4aRnfhYtpQzSpAxXVCNSR4HiSw2vw9Yo4jeNx2YdynFHX7L-ZcOvH2g8g5_S20eBxJHEPJ6csXfb1GWVUiyJV479mG-Nur_YmFl-hHtlgz0gRZUSJwVxOnCqHiuJwMDO_UoX-ahQIpl4hj_--6_4S854pqh-kNgOnZuE2NyiMEwEGcH-ZEWltH7eHN00FGxaB-tyyepwebAjQ7RfdjaQW-qFmkTO5GaYNK_HjvefkUYrkkoKTn8ZySDhSIYHhg2NAmyqb25UlaRPHftRtAjf23AJB6BfyLj3jKANLBbldxZ2yP6dAtiFtF1H4xivilLSXtvq7TDqu-eGigi2a3Al_8K8GwrBU6JS4YyOx9eG7nlZi3nSMP7739Dgc-mg6opH6-8gOK_VNDh9l80YQNNbQbmZWl9r5KVnrAtkHa6_085x-LH0HQKbXTkBzhlT3SuB8F27lEewrpzuqqcLY2dCGh0ikLd04CqRKsiHnM1WC9aYtUoY8-XPm9Bqv08BW4FoVPP6ixYNQhHeYjKYfC59TSc0XpRwa2bdtUp4FU3a84ZIvca5wY2_x1Zcvzmm2VaC5d5UF6zF643oVPeefVgfAyPdB4GAv7Ko=w448-h614-no?authuser=1" width="100px;" alt="Foto Eduardo Pereira Fausto"/><br>
+        <img src="https://avatars.githubusercontent.com/u/106498964?v=4" width="100px;" alt="Foto Eduardo Pereira Fausto"/><br>
         <sub>
           <b>Eduardo Pereira Fausto</b>
         </sub>
@@ -85,7 +85,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://lh3.googleusercontent.com/75y9NN2CrD8r2AKLJi83jyknbcLkIL6fU9UFXptS4p7KimqNxdHT7MzOd6uDXrTXXmuD89UANmZdPKDxuWNbdpMSpSH9qk6emQl5nCC4vM3QnsoVtFIn5yAJ3XihBrkL9yBhi5cunmz82wMrczVCW0jUwVIXyeQA6pzc3i7h1b6CjdQZnnOn75deTEnKHj4PQfa-6t2o0KPp8rP7Uk1U13zYOcQ4kDZChKHYzeGhaFHhpZxVeHHzCWQxRnp1FjZOb6oTO9NXGA_BUGgewJUIXMJ33pe13pDCWnT7_U1hHEj_PSwjpeucQvBQry0hQr1brd6OKRn9VoLTEaCvLtu9viTa0-tQCy0sqvqb7YEYWlnV0R6mC0d-GV692nl0zQZN1eQaYrDTwJYWGqIrSbF7v0paJPAjn1OaGfKWhtMjg9hPq2Lg0NP8-v2PE4qVdrlLROQ7fm1pjDod7CiFx8PVqqyNF76wurV1bjldHc2BIrEpGycKt6KorrALfZnm13aBgmP_5fz87JB-I_b7PPA7pbSOjuanvJ9uTs16L0LcBzsF6CeQAZEg-uRNS2_FNLqH3LcBvnuwvHt-GaTrkV7nF1fEhq6d2CAbH1NecKOXBp7mRRjRN3AxuL9-p-8cwK4vQhR3qAVlou86HhLRKsv_5HxOPazmASlN6IqgxjatihMIwkRhCakg5u91Dmw0f0fd97hxf2TTmhAMR5uHsnB6rXkzpPlc3oO4le-gcvhI9ZH_7tb1k0Q3tjQUQsNEm1PTqMcRVE4zJC4f_NRuQzxmExEZ_1MxeuurmMSKpdDIWnOUYRXZg7rsVPqODPdxNqIsDcoJpzeHFDzTDXVHRakSsgIz-zf7Dm31x9SGTi7c-iBx3Luk6nP2d6iRUDL2-NyMSGr-QqT0s-uRrTrNsKgecOnfqHacYXYeNybzy6fSmFLhGyoW6TaZCL1cu4lmGcwYoZEexIMlG3AUdIXLIWs=s614-no?authuser=1" width="100px;" alt="Foto Fernanda Gabriela de Sousa"/><br>
+        <img src="https://avatars.githubusercontent.com/u/102119470?v=4" width="100px;" alt="Foto Fernanda Gabriela de Sousa"/><br>
         <sub>
           <b>Fernanda Gabriela de Sousa</b>
         </sub>
@@ -93,7 +93,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://lh3.googleusercontent.com/UuFEzHETppiktsv0kY_HR5G7FZpRBtX-AXVjdlG8gGRMLYXFH3sehdtGSvHdyOkUIctmZf-LNDMLDjJKwhTQuu9HkrGfVtprpE_ChI8zhan82UZhFQGEIE95gG-ljUYaO4zxvR_RS0kftKHwbkvHG_v_CHrLDPTIpzMu6nxrpXugaLcxVmbla-HZHGmP0e0BLgntfdrokqPNqiOrCUlACBtNirMKZbPmjx5moGo6oqwuhG2GfGuugLi07mpBAGw6S0RkYafN2flo4LPhs8zUTn77Bu9jFPL_mxfgHskUfeY-5WQNBacepZwaCUdm_gfd999cVCwF56QQ1WWJnnZmIvmgCnPwQ9R9wQxVAMHb3HCz183hzD7tSFYPaBBx8aQBdzQ-ASwMpE25ZdHwsfK3_BhY8fjRHyK9O7H3CTVb8xzVzT46cyyoLZo74Wne1DwCHH012RXa5TfvUEQF4CYrLWj4mhsy_HXdRgn-fDWeUkt3XkKcpEnZ7ud_PN3Qczzc6RsC4RXE3P94oHB4zkmkG1c-a2-UfNpeM81SdLExx_5yd61rma5LmPjEEsbJwPqu_I8PCMqbrl01_C82RU16IJb72KA1BBxUTUkTUodjO7DesSxOUY3tpq2bhDcZeZTC5GwSznke-sFJb3gw_fJNbZxBvIP8G7Xaoy5XBFbdEFhqgigsYR7ATAghvkqjJ0K9PVblUTSI-eMjGHw1BXNzonLobf7pchLONeVh6pDHFw9m65LOxWnvXuaHc-QMDwewcH7byNCClJdoaYN-fmlsolRtfwHzC81wJhEsuEplSxmg0cuO81Oqh5lSfjV1REDzV2RrT-fo1T_UzIUufc0UjKekMFAOk3h7S7Nlk_3qteS481OewTYWFeLk9ty1CxqXDlX6xePgSJnTreNnv4p2uulg6pXxix0JP1VmXEtzEiYySk-HiU3ht12oy7iJ9M74aNKEbUY8_ngL2I6AF1Y=s614-no?authuser=1" width="100px;" alt="Foto Guilherme Andrei Bugmann"/><br>
+        <img src="https://avatars.githubusercontent.com/u/105954008?v=4"/><br>
         <sub>
           <b>Guilherme Andrei Bugmann</b>
         </sub>
@@ -103,7 +103,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://lh3.googleusercontent.com/3pB4sBBHGBsDdWH0Pn6PbdGWQbiZZ_BA9q64MOKrCff1s_y5RSyU0PM7OoeVNr9vZ1blDgvj-_SQwZXoucu0cO3ynCxwW29ZEoV-Wr-bopQY63Mh0-OUHb0xGru_str99u18zTZ2UcBh8CDSSppqJGSr0-Li5ukclRUovIRxZdSB7zNIq1jBxDY7D-_4JlgUWaZ7RWYkBTO8HM271DcCZanqLoZfDeT2lyliGvS0C3s6E_02QWf0CrySYAtCsrS0vLD35mHG8jAsMyuIlCWaBwFYDIjIC-YgKG-bfPBPyPTFShZ6bzTQeSynNWMn0vgirVKVwwEBqmO5vCPApdk_I0Ci-MAuSTM9O8ZtmxGTrSHLfZD5TD0J2RbYT-hn72ZQ1d1ZkcbyUbpqhWem2VxTR5udkwtnHlFqwevPwPBtq-y1Sf_i22gTWFIgNj0of1YStZ9VH6_n7BA1qxRJYnOEC7_UHI3QrzVb2KqSWe2ZV3c7F4_pmd689Spkxhy6Mc6J4FOytCAKwKBPazjzR-x_vPLwG6ktiDKj6lDAaCjlYMYKz9ingMQR62pVw9KgBylMw3fCj-TLsEKHiUmWBgFYvLpyxK7h_infjs-lvmGU3pddJxXx51BdopM-4abMBGwcZcMpdw9SGwAAnnKcUz63bhx_Twko2p1l1jySR6fsvRH3o3f_mudWG0q2baCV0ZjmpJqGxlLP_7nTcFtQsUarSLwzC64hTWKZnDNTyRQ5gNYruE2Th41WcKM6CGVtz-FqlYBDpNIAuR0RNbX9SZ3kNs19KVfgaDK-zJHkR1NpsL8DKxyGn7FHoqKn7ljOXKTprhg2mXdAcrM5fkBauLE0LOHDbVjhhBVFcYn5NINgkLADlWKuZVSOZnYiYVv6HtRGi99iGjrp-9LeWwz9Kf7T7L75k_UHw2OvURSjAu2_jcXk55cL-TardPfQAX3WYZB9nQMBY6sbJnsx9GCnGFA=w461-h614-no?authuser=1" width="100px;" alt="Foto Guilherme de Souza Rauen"/><br>
+        <img src="https://avatars.githubusercontent.com/u/20167004?v=4" width="100px;" alt="Foto Guilherme de Souza Rauen"/><br>
         <sub>
           <b>Guilherme de Souza Rauen</b>
         </sub>
@@ -111,7 +111,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://lh3.googleusercontent.com/AXwcsUc2OKapcJVJ2nFRplk2bhw-B0UwkNUVeDu4S2VIpxyjzHCuEUEK1hMqhX1AR5N7QXSSBExLiDC4EhbfoSUWpG24H2cnV5opEJfL14cU4m6f9ZIOIMPo5n3gu_G6Dud3bdKt541fJTQDQXnhXFmGyyECcrgJ9niZxxGP5FZqTwgA4FuVLbHeX1lAB3q-1TzpmXBugUSNljXEtmk_xvHdwKCwla-_5aSLo1ETwN0KrTR1DiotCEv57No5hbsQ-xhRIP0sTmuh65NGGbFAFtIvFlVMioFUFKC8bG31HbEk4m2FrP-EyNITbBZmcM1DeoHpv7LiEbPUNuXopPhGNGMT4QVW7GinUBxbq7JAA3LdFB5xRyuwxxdun8KdpXcKLfOnpQSDMYqZBs0f8FcyHHu4Gha4hRUyhGffER6r66gIu8fx1rqSak0SZ0LQ3-0o4EsB7i1XyNMHvt3It-JcwtgnvA38YGTz-WSuKMaXAMR6x6KhQzFcwlWCU53nZanwHEzDDrvjq-NLsln8o98u_BPkPMyMILQ3rHvQz4UPqHbJaTvu6bqJRPVOtLAbGZkaInHbBUSnsAFIsvkRo4w7e_nTmHCFaHSPUUTtjLME5-da72-jIM6znsU3gs18hJqmCV4bKYEyJLP5_9lyau6sd2zJTEVe-7mcUU39DYl56nqUpzXUOn0oIABbe13-HcLRNvvqYPlnk0lDdHTFcW-ZVaJ5He7ObVWTJAZca7Wut-6ie74aB-xV0prq4HzMSiHOKdpJxuzlC0y4-ob_KgoVGsYnDmP5noY9oTFSDhfAx8xoorRUQACwF41YA3zun5gJVdvO-sv2ZV67JpC9USawTLC3AFS_z8wy0z_B4hVyIEqaBIF8QG7gGLSNMMu7jkI5blbR7DZ5GJbS3WDHskjKRg0G9dI5Bvxn3XwGE_uofgG1Bxa7PBhbAzk8c6GbR7jyT4RG-aHMp1BJgnGI9FQ=w461-h614-no?authuser=1" width="100px;" alt="Foto Luiz Ervin Puehler"/><br>
+        <img src="https://avatars.githubusercontent.com/u/79670980?v=4"/><br>
         <sub>
           <b>Luiz Ervin Puehler</b>
         </sub>
@@ -119,7 +119,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://lh3.googleusercontent.com/Hhdllatm8RuikYZKYwnO6CgdU1jxmKGPwymFoQaMjKB3wO1s6pUUpph3cqIRXCylRl8TVK8A_IdIAGVgvWSWn6XDw3kJd6VRannQnQtX3q1wzpG2eJy_9opUENmwLtz88zp0hB4balqWv45CScq93zOu01G8cQacKgoWn41Q8rtAfNQP5G2f98V157jzZLPTYrRV9Vcjm_dlAJUNLG8ZQB_rqbltpn29OPHn5Xd1rT2QyaPuH6qjUORu4wPjZUDDtfaYcpGIuLMF7lvOyHE71Qnt9VLVpWFyI7B_4EdiL9R3yEaqKHyadCmgYYEOw7kUr7P8VyeqGHD3HcBb1ZimKXEcx2ojvolyoO1KOm2MA6RBVcNJEf9R3zqDvF6tGTvEKc4S_-6GDeWKyzORceIo9hmPMZaMGObYMVQkFdr6RFaEJ1M-9amNXCEB5TAxD6QjJ8gsSQc9WJfp5MHrFxfFPexqZrb0awFSgfM0klS8eSQ82RCUPM5crTjuafDzbY4pyMA6JinxlAcQf95KB7afrfsB8mFcHcTmyZoo_0HUwj66fJ1E9Ie0Jcizw6v3gJtNioeQYTTc6YzrW7JEZevZJh1oGN5EMJUlbdJBNb32y4o3yebuZkJJRjiQXaqOMDCWyIm9s156LBneIqOLkhD9LsyDvoXzTxk-AzKEO9KlDuQ0sCbfUP0bPIHKsua5e-RYgm5lDxJG93kFe2P5lwfNGKavt2bRC708JRKkzD7NFyrWawKFRehwBO58JjFNLXJbqM7t3cK9_K4hXCWX5TxwYiyot3585zfU9-_BTreN_U_UpFCtgrT2GTWn_W0T_tFCKM01eVvxQjhJH2cBZRHNQwkPq9h9t600v5hcas2eS55dkY2Q33azotbCpoZQtul824077Wrk1zZmwCamIEXZsF7NAz5MRTmeQl4zt3Xj4MdhJAnmW8vOLk0bMawlsEkPbaSiDpVQtE69wRKVuXE=s614-no?authuser=1" width="100px;" alt="Foto Vinícius D' Marcelo Silva"/><br>
+        <img src="" width="100px;" alt="Foto Vinícius D' Marcelo Silva"/><br>
         <sub>
           <b>Vinícius D' Marcelo Silva</b>
         </sub>
@@ -131,10 +131,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 #
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
-
-
-
-
-
-
-
