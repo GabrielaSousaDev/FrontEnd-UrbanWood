@@ -93,7 +93,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/105954008?v=4"/><br>
+        <img src="https://avatars.githubusercontent.com/u/105954008?v=4" width="100px;"/><br>
         <sub>
           <b>Guilherme Andrei Bugmann</b>
         </sub>
@@ -111,7 +111,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/79670980?v=4"/><br>
+        <img src="https://avatars.githubusercontent.com/u/79670980?v=4" width="100px;"/><br>
         <sub>
           <b>Luiz Ervin Puehler</b>
         </sub>
